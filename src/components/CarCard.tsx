@@ -7,7 +7,7 @@ interface CarCardProps {
   id: string
   name: string
   brand: string
-  price: number
+  price: string | number
   image: string
 }
 

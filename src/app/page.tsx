@@ -12,13 +12,16 @@ export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState('all')
   const [selectedBrand, setSelectedBrand] = useState('all')
 
-  const filteredCars = carData.cars.filter(car => 
-    car.name.toLowerCase().includes(searchTerm.toLowerCase()) &&
-    (selectedCategory === 'all' || car.category === selectedCategory) &&
-    (selectedBrand === 'all' || car.brand === selectedBrand)
-  )
+  const filteredCars = carData.cars.filter(car => {
+    const categories = Array.isArray(car.category) ? car.category : [car.category];
+    return(
+      (selectedCategory === 'all' || categories.includes(selectedCategory)) &&
+      car.name.toLowerCase().includes(searchTerm.toLowerCase()) &&
+      (selectedBrand === 'all' || car.brand === selectedBrand)
+    );
+  });
 
-  const categories = [...new Set(carData.cars.map(car => car.category))]
+  const categories = [...new Set(carData.cars.flatMap(car => Array.isArray(car.category) ? car.category : [car.category]))]
   const brands = [...new Set(carData.cars.map(car => car.brand))]
 
   return (
@@ -46,8 +49,10 @@ export default function Home() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">All Categories</SelectItem>
-                    {categories.map(category => (
-                      <SelectItem key={category} value={category}>{category}</SelectItem>
+                    {categories.map((category, index) => (
+                      <SelectItem key={`${category}-${index}`} value={category}>
+                        {category}
+                      </SelectItem>
                     ))}
                   </SelectContent>
                 </Select>
