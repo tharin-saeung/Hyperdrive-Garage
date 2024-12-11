@@ -1,0 +1,70 @@
+{
+    "cars": [
+      {
+        "id": "1",
+        "name": "Toyota Corolla Altis",
+        "brand": "Toyota",
+        "category": "Sedan",
+        "price": 939000,
+        "image": "/placeholder.svg?height=200&width=300"
+      },
+      {
+        "id": "2",
+        "name": "Honda Civic",
+        "brand": "Honda",
+        "category": "Sedan",
+        "price": 964900,
+        "image": "/placeholder.svg?height=200&width=300"
+      },
+      {
+        "id": "3",
+        "name": "Mazda 3",
+        "brand": "Mazda",
+        "category": "Sedan",
+        "price": 1069000,
+        "image": "/placeholder.svg?height=200&width=300"
+      },
+      {
+        "id": "4",
+        "name": "Nissan Almera",
+        "brand": "Nissan",
+        "category": "Sedan",
+        "price": 559000,
+        "image": "/placeholder.svg?height=200&width=300"
+      },
+      {
+        "id": "5",
+        "name": "Mitsubishi Xpander",
+        "brand": "Mitsubishi",
+        "category": "MPV",
+        "price": 789000,
+        "image": "/placeholder.svg?height=200&width=300"
+      },
+      {
+        "id": "6",
+        "name": "Isuzu D-Max",
+        "brand": "Isuzu",
+        "category": "Pickup",
+        "price": 548000,
+        "image": "/placeholder.svg?height=200&width=300"
+      },
+      {
+        "id": "7",
+        "name": "Ford Ranger",
+        "brand": "Ford",
+        "category": "Pickup",
+        "price": 659000,
+        "image": "/placeholder.svg?height=200&width=300"
+      },
+      {
+        "id": "8",
+        "name": "MG ZS",
+        "brand": "MG",
+        "category": "SUV",
+        "price": 689000,
+        "image": "/placeholder.svg?height=200&width=300"
+      }
+    ]
+  }
+  
+  
