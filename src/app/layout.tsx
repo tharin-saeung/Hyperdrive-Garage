@@ -8,8 +8,8 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "CarSell - Your Trusted Car Marketplace",
-  description: "Find and sell cars with ease on CarSell",
+  title: "HyperDrive - Your Trusted Car Marketplace",
+  description: "Find and sell cars with ease on HyperDrive",
 }
 
 export default function RootLayout({

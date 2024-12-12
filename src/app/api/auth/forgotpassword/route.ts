@@ -51,8 +51,8 @@ export async function POST(req: Request) {
     const mailOptions = {
       from: process.env.EMAIL_USER,
       to: email,
-      subject: 'CarSell Password Reset',
-      html: `<p>Your new password for CarSell is</p>
+      subject: 'HyperDrive Password Reset',
+      html: `<p>Your new password for HyperDrive is</p>
              <a>${password}</a>`
     };
 

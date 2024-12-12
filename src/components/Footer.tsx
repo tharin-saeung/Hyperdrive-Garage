@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8 xl:col-span-1">
-            <span className="text-2xl font-bold text-red-600 dark:text-yellow-400">CarSell</span>
+            <span className="text-2xl font-bold text-red-600 dark:text-yellow-400">HyperDrive</span>
             <p className="text-gray-400 dark:text-gray-300 text-base">
               Your trusted marketplace for buying and selling cars.
             </p>
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
         <div className="mt-12 border-t border-gray-700 pt-8">
           <p className="text-base text-gray-400 dark:text-gray-300 xl:text-center">
-            &copy; 2023 CarSell. All rights reserved.
+            &copy; 2023 HyperDrive. All rights reserved.
           </p>
         </div>
       </div>
