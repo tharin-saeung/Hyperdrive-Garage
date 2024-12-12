@@ -11,7 +11,6 @@ const nextConfig: NextConfig = {
       '@': path.resolve(__dirname, 'src'),
 
     };
-
     return config;
 
   },

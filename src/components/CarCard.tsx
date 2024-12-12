@@ -8,14 +8,13 @@ interface CarCardProps {
   name: string
   brand: string
   price: string | number
-  image: string
 }
 
-const CarCard: React.FC<CarCardProps> = ({ id, name, brand, price, image }) => {
+const CarCard: React.FC<CarCardProps> = ({ id, name, brand, price, }) => {
   return (
     <Card className="w-full bg-white dark:bg-gray-800">
       <CardContent className="p-4">
-        <Image src={image} alt={name} width={300} height={200} className="w-full h-48 object-cover rounded-md" />
+        <Image src={"/images/"+brand+"/"+name+"/placeholder.jpg"} alt={name} width={300} height={200} className="w-full h-48 object-cover rounded-md" />
         <h3 className="mt-2 text-lg font-semibold text-gray-800 dark:text-gray-200">{name}</h3>
         <p className="text-sm text-gray-500 dark:text-gray-400">{brand}</p>
         <p className="mt-2 text-xl font-bold text-red-600 dark:text-yellow-400">฿{price.toLocaleString()}</p>

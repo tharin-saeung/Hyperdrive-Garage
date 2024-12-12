@@ -40,7 +40,7 @@ export default function CarDetail() {
       <div className="grid md:grid-cols-2 gap-8">
         <div>
           <Image
-            src={carDetails.image}
+            src={"/images/"+carDetails.brand+"/"+carDetails.name+"/placeholder.jpg"}
             alt={carDetails.name}
             width={600}
             height={400}

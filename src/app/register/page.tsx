@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
+import { useRouter } from 'next/navigation'
 
 export default function RegisterPage() {
   const [formData, setFormData] = useState({
@@ -18,12 +19,42 @@ export default function RegisterPage() {
       [e.target.name]: e.target.value
     })
   }
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+  const [success, setSuccess] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
+  const router = useRouter()
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
+    setError('');
+    setSuccess('');
     // Here you would typically send the registration data to your server
     console.log('Registration submitted:', formData)
     // Reset form or redirect user
+    try {
+      const response = await fetch('/api/auth/register', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        setSuccess(`Registration successful! Welcome, ${data.user.name}`);
+        setFormData({ name: '', email: '', password: '' });
+        router.push('/');
+      } else {
+        const errorData = await response.json();
+        setError(errorData.error || 'Something went wrong');
+      }
+    } catch (err) {
+      setError('Failed to connect to the server. Please try again later.');
+    } finally {
+      setLoading(false);
+    }
   }
 
   return (
@@ -63,8 +94,12 @@ export default function RegisterPage() {
             onChange={handleChange}
           />
         </div>
-        <Button type="submit" className="w-full">Register</Button>
+        <Button type="submit" className="w-full" disabled={loading}>
+          {loading ? 'Registering...' : 'Register'}
+        </Button>
       </form>
+      {success && <p className="mt-4 text-green-600">{success}</p>}
+      {error && <p className="mt-4 text-red-600">{error}</p>}
     </div>
   )
 }

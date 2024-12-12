@@ -2,13 +2,46 @@
   "cars": [
     {
       "brand": "Toyota",
+      "id": "T-1",
+      "name": "GR Corolla",
+      "year": "2023",
+      "category": "Hatchback",
+      "price": 939000,
+      "description": "The 2023 GR Corolla is Toyota's high-performance hatchback, built for driving enthusiasts. Featuring a turbocharged 1.6L 3-cylinder engine, it delivers 300 horsepower and 273 lb-ft of torque, making it a force on both the street and track.",
+      "specifications": {
+        "engine": "1.6L Turbocharged 3-Cylinder",
+        "horsepower": "300 hp",
+        "torque": "270 lb-ft",
+        "transmission": "6-Speed Manual",
+        "0-100 km/h": "5.5 seconds",
+        "drive": "AWD"
+      }
+    },
+    {
+      "brand": "Toyota",
+      "id": "T-2",
+      "name": "GR Yaris",
+      "year": "2021",
+      "category": "Hatchback",
+      "price": 939000,
+      "description": "The GR Yaris, a rally-bred hatchback, combines lightweight design with impressive performance. Powered by a 1.6L 3-cylinder turbo engine, it achieves 257 horsepower and features a sophisticated all-wheel-drive system for superior handling.",
+      "specifications": {
+        "engine": "1.6L Turbocharged 3-Cylinder",
+        "horsepower": "257 hp",
+        "torque": "360 lb-ft",
+        "transmission": "6-Speed Manual",
+        "0-100 km/h": "5.5 seconds",
+        "drive": "AWD"
+      }
+    },  
+    {
+      "brand": "Toyota",
       "id": "T-3",
-      "name": "GR Supra 3.0",
+      "name": "GR Supra",
       "year": "2023",
       "category": "Coupe",
       "price": 939000,
-      "image": "/placeholder.svg?height=200&width=300",
-      "description": "The 2023 GR Supra 3.0 is Toyota's return to the iconic sports coupe market. With a powerful 3.0L turbocharged inline-6 engine, it delivers 382 horsepower, making it a thrilling drive on both the street and track. The car's sleek design and performance capabilities have been honed for precision handling and exhilarating acceleration.",
+      "description": "The 2023 GR Supra is Toyota's return to the iconic sports coupe market. With a powerful 3.0L turbocharged inline-6 engine, it delivers 382 horsepower, making it a thrilling drive on both the street and track. The car's sleek design and performance capabilities have been honed for precision handling and exhilarating acceleration.",
       "specifications": {
           "engine": "3.0L Turbocharged Inline-6",
           "horsepower": "382 hp",
@@ -17,15 +50,14 @@
           "0-100 km/h": "4.1 seconds",
           "drive": "RWD"
       }
-  },
-  {
+    },
+    {
       "brand": "Toyota",
       "id": "T-4",
       "name": "Supra A80",
       "year": "1996",
       "category": "Coupe",
       "price": 939000,
-      "image": "/placeholder.svg?height=200&width=300",
       "description": "The 1996 Supra A80, often regarded as one of the best Japanese sports cars of its time, is a legend in the automotive world. Featuring a turbocharged 3.0L inline-six engine, this car is known for its tunability and legendary status in street racing culture.",
       "specifications": {
           "engine": "3.0L Turbocharged Inline-6",
@@ -35,15 +67,14 @@
           "0-100 km/h": "5.5 seconds",
           "drive": "RWD"
       }
-  },
-  {
+    },
+    {
       "brand": "Toyota",
       "id": "T-5",
       "name": "Celica GT",
       "year": "1996",
       "category": "Coupe",
       "price": 939000,
-      "image": "/placeholder.svg?height=200&width=300",
       "description": "The 1996 Toyota Celica GT is a compact, sporty coupe that offers a balance between performance and everyday usability. Powered by a 2.2L 4-cylinder engine, it provides a great entry point for those seeking an affordable sports car with impressive handling.",
       "specifications": {
           "engine": "2.2L Inline-4",
@@ -53,15 +84,14 @@
           "0-100 km/h": "9.0 seconds",
           "drive": "FWD"
       }
-  },
-  {
-      "brand": "Toyota",
+    },
+    {
+    "brand": "Toyota",
       "id": "T-6",
       "name": "AE 86",
       "year": "1983",
       "category": "Coupe",
       "price": 939000,
-      "image": "/placeholder.svg?height=200&width=300",
       "description": "The AE 86, known for its lightweight design and agile handling, became a cult classic thanks to its appearance in motorsports and drift culture. Its 1.6L 4-cylinder engine and rear-wheel drive setup offer the perfect foundation for enthusiasts seeking to modify or race their car.",
       "specifications": {
           "engine": "1.6L Inline-4",
@@ -71,15 +101,14 @@
           "0-100 km/h": "8.5 seconds",
           "drive": "RWD"
       }
-  },
-  {
+    },
+    {
       "brand": "Toyota",
       "id": "T-7",
       "name": "FT 86",
       "year": "2014",
       "category": "Coupe",
       "price": 939000,
-      "image": "/placeholder.svg?height=200&width=300",
       "description": "The 2014 Toyota FT 86, also known as the Scion FR-S in the U.S., is a lightweight, rear-wheel-drive coupe aimed at providing an engaging driving experience. With a 2.0L 4-cylinder engine, it strikes a balance between performance and affordability for driving purists.",
       "specifications": {
           "engine": "2.0L Inline-4",
@@ -89,15 +118,14 @@
           "0-100 km/h": "7.5 seconds",
           "drive": "RWD"
       }
-  },
-  {
+    },
+    {
       "brand": "Toyota",
       "id": "T-8",
       "name": "GR 86",
       "year": "2024",
       "category": "Coupe",
       "price": 939000,
-      "image": "/placeholder.svg?height=200&width=300",
       "description": "The 2024 Toyota GR 86 brings a refreshed and modern look to the beloved sports coupe. With its 2.4L Boxer engine, it delivers 228 horsepower and a low center of gravity that makes it an incredibly agile and fun-to-drive car for enthusiasts.",
       "specifications": {
           "engine": "2.4L Boxer 4-Cylinder",
@@ -107,472 +135,439 @@
           "0-100 km/h": "6.3 seconds",
           "drive": "RWD"
       }
-  },
-  {
-      "brand": "Land Cruiser",
-      "id": "T-9",
-      "name": "Land Cruiser GR Sport",
-      "year": "2023",
-      "category": "SUV",
-      "price": 939000,
-      "image": "/placeholder.svg?height=200&width=300",
-      "description": "The 2023 Toyota Land Cruiser GR Sport is an off-road powerhouse, combining luxury and rugged capability. With a 3.5L turbocharged V6 engine and advanced off-road features, it’s built to tackle any terrain while providing premium comfort and technology.",
-      "specifications": {
-          "engine": "3.5L Turbocharged V6",
-          "horsepower": "409 hp",
-          "torque": "650 Nm",
-          "transmission": "10-Speed Automatic",
-          "0-100 km/h": "7.5 seconds",
-          "drive": "AWD"
+    },
+    {
+    "brand": "Toyota",
+    "id": "T-9",
+    "name": "Land Cruiser GR Sport",
+    "year": "2023",
+    "category": "SUV",
+    "price": 939000,
+    "description": "The 2023 Toyota Land Cruiser GR Sport is an off-road powerhouse, combining luxury and rugged capability. With a 3.5L turbocharged V6 engine and advanced off-road features, it’s built to tackle any terrain while providing premium comfort and technology.",
+    "specifications": {
+        "engine": "3.5L Turbocharged V6",
+        "horsepower": "409 hp",
+        "torque": "650 Nm",
+        "transmission": "10-Speed Automatic",
+        "0-100 km/h": "7.5 seconds",
+        "drive": "AWD"
       }
     },
     {
       "brand": "Honda",
-        "id": "H-1",
-        "name": "Civic Type-R FL5",
-        "year": "2024",
-        "category": "Hatchback",
-        "price": 964900,
-        "image": "/placeholder.svg?height=200&width=300",
-        "description": "The 2024 Honda Civic Type-R FL5 offers a refined driving experience with a turbocharged 2.0L engine that delivers 320 horsepower. The car is renowned for its precise handling and aggressive design, making it an ideal choice for enthusiasts who crave both performance and practicality.",
-        "specifications": {
-          "engine": "2.0L Turbocharged Inline-4",
-          "horsepower": "320 hp",
-          "torque": "400 Nm",
-          "transmission": "6-Speed Manual",
-          "0-100 km/h": "5.7 seconds",
-          "drive": "FWD"
-        }
+      "id": "H-1",
+      "name": "Civic Type-R FL5",
+      "year": "2024",
+      "category": "Hatchback",
+      "price": 964900,
+      "description": "The 2024 Honda Civic Type-R FL5 offers a refined driving experience with a turbocharged 2.0L engine that delivers 320 horsepower. The car is renowned for its precise handling and aggressive design, making it an ideal choice for enthusiasts who crave both performance and practicality.",
+      "specifications": {
+        "engine": "2.0L Turbocharged Inline-4",
+        "horsepower": "320 hp",
+        "torque": "400 Nm",
+        "transmission": "6-Speed Manual",
+        "0-100 km/h": "5.7 seconds",
+        "drive": "FWD"
+      }
     },
-      {
-        "brand": "Honda",
-        "id": "H-2",
-        "name": "Civic Type-R FK8",
-        "year": "2020",
-        "category": "Hatchback",
-        "price": 939000,
-        "image": "/placeholder.svg?height=200&width=300",
-        "description": "The 2020 Civic Type-R FK8 continues the legacy of the Type-R lineup, featuring a 2.0L turbocharged engine that offers incredible performance. With its sharp handling and aggressive styling, this version of the Type-R is built for those who want a car that's both thrilling on track and practical on the road.",
-        "specifications": {
-          "engine": "2.0L Turbocharged Inline-4",
-          "horsepower": "306 hp",
-          "torque": "400 Nm",
-          "transmission": "6-Speed Manual",
-          "0-100 km/h": "5.8 seconds",
-          "drive": "FWD"
-        }
-      },
-      {
-        "brand": "Honda",
-        "id": "H-3",
-        "name": "Civic Type-R EK9",
-        "year": "2000",
-        "category": "Hatchback",
-        "price": 939000,
-        "image": "/placeholder.svg?height=200&width=300",
-        "description": "The 2000 Honda Civic Type-R EK9 is a lightweight and high-performance version of the Civic. Known for its agility and precision, it comes with a 1.6L engine that revs high and delivers excellent power for its size. A true icon in the hot hatchback world.",
-        "specifications": {
-          "engine": "1.6L Inline-4",
-          "horsepower": "182 hp",
-          "torque": "160 Nm",
-          "transmission": "5-Speed Manual",
-          "0-100 km/h": "6.6 seconds",
-          "drive": "FWD"
-        }
-      },
-      {
-        "brand": "Honda",
-        "id": "H-4",
-        "name": "Civic Type-R FD2",
-        "year": "2007",
-        "category": "Sedan",
-        "price": 939000,
-        "image": "/placeholder.svg?height=200&width=300",
-        "description": "The 2007 Civic Type-R FD2 is a sedan variant of the iconic Civic Type-R. With a 2.0L engine that pushes out 221 hp, it blends performance and practicality in a way that few cars in its class can match.",
-        "specifications": {
-          "engine": "2.0L Inline-4",
-          "horsepower": "221 hp",
-          "torque": "195 Nm",
-          "transmission": "6-Speed Manual",
-          "0-100 km/h": "6.4 seconds",
-          "drive": "FWD"
-        }
-      },
-      {
-        "brand": "Honda",
-        "id": "H-5",
-        "name": "Integra Type-R",
-        "year": "2001",
-        "category": "Coupe",
-        "price": 939000,
-        "image": "/placeholder.svg?height=200&width=300",
-        "description": "The 2001 Integra Type-R is a performance-oriented coupe that delivers an exhilarating driving experience. With a high-revving 1.8L engine producing 195 hp, it was built for enthusiasts who prioritize handling and precision.",
-        "specifications": {
-          "engine": "1.8L Inline-4",
-          "horsepower": "195 hp",
-          "torque": "180 Nm",
-          "transmission": "5-Speed Manual",
-          "0-100 km/h": "6.8 seconds",
-          "drive": "FWD"
-        }
-      },
-      {
-        "brand": "Honda",
-        "id": "H-6",
-        "name": "NSX-R NA1",
-        "year": "1992",
-        "category": "Coupe",
-        "price": 939000,
-        "image": "/placeholder.svg?height=200&width=300",
-        "description": "The 1992 NSX-R NA1 is a legendary Japanese supercar that blends sports car performance with luxury. Powered by a 3.0L V6 engine, it provides exceptional performance with 280 hp and exceptional handling.",
-        "specifications": {
-          "engine": "3.0L V6",
-          "horsepower": "280 hp",
-          "torque": "294 Nm",
-          "transmission": "5-Speed Manual",
-          "0-100 km/h": "5.6 seconds",
-          "drive": "RWD"
-        }
-      },
-      {
-        "brand": "Honda",
-        "id": "H-7",
-        "name": "NSX-R NA2",
-        "year": "2004",
-        "category": "Coupe",
-        "price": 939000,
-        "image": "/placeholder.svg?height=200&width=300",
-        "description": "The 2004 NSX-R NA2 is the second iteration of the iconic NSX series, featuring updated technology and a 3.2L V6 engine. With 290 hp and a lightweight design, it delivers pure performance and handling.",
-        "specifications": {
-          "engine": "3.2L V6",
-          "horsepower": "290 hp",
-          "torque": "299 Nm",
-          "transmission": "6-Speed Manual",
-          "0-100 km/h": "5.5 seconds",
-          "drive": "RWD"
-        }
-      },
-      {
-        "brand": "Honda",
-        "id": "H-8",
-        "name": "S2000 Type-s",
-        "year": "2008",
-        "category": "Convertible",
-        "price": 939000,
-        "image": "/placeholder.svg?height=200&width=300",
-        "description": "The 2008 Honda S2000 Type-S is a roadster known for its high-revving 2.2L engine and exceptional handling. It offers a true sports car experience with a well-balanced chassis and a 6-speed manual transmission.",
-        "specifications": {
-          "engine": "2.2L Inline-4",
-          "horsepower": "237 hp",
-          "torque": "208 Nm",
-          "transmission": "6-Speed Manual",
-          "0-100 km/h": "6.0 seconds",
-          "drive": "RWD"
-        }
-      },
-      {
-        "brand": "Honda",
-        "id": "H-9",
-        "name": "S660",
-        "year": "2015",
-        "category": "Coupe",
-        "price": 939000,
-        "image": "/placeholder.svg?height=200&width=300",
-        "description": "The 2015 Honda S660 is a small, lightweight sports car that provides a fun, agile driving experience. With a 0.66L turbocharged engine, it's perfect for those seeking a compact and responsive car.",
-        "specifications": {
-          "engine": "0.66L Turbocharged Inline-3",
-          "horsepower": "64 hp",
-          "torque": "104 Nm",
-          "transmission": "6-Speed Manual",
-          "0-100 km/h": "10.5 seconds",
-          "drive": "RWD"
-        }
-      },
-      {
-        "brand": "Mazda",
-          "id": "M-1",
-          "name": "RX-7 FD3S",
-          "year": "2001",
-          "category": "Coupe",
-          "price": 1069000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The 2001 RX-7 FD3S is one of Mazda's most iconic sports cars, powered by a twin-rotor 1.3L rotary engine. It is known for its lightweight construction and near-perfect handling, making it a joy to drive.",
-          "specifications": {
-            "engine": "1.3L Twin-Rotor Rotary",
-            "horsepower": "276 hp",
-            "torque": "314 Nm",
-            "transmission": "5-Speed Manual",
-            "0-100 km/h": "5.9 seconds",
-            "drive": "RWD"
-          }
-        },
-        {
-        "brand": "Mazda",
-          "id": "M-2",
-          "name": "RX-7 FC3S",
-          "year": "1985",
-          "category": "Coupe",
-          "price": 1069000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The 1985 RX-7 FC3S marks the second generation of Mazda's RX series. Equipped with a 1.3L rotary engine, the FC3S was built for performance enthusiasts with its sharp handling and strong acceleration.",
-          "specifications": {
-            "engine": "1.3L Twin-Rotor Rotary",
-            "horsepower": "146 hp",
-            "torque": "207 Nm",
-            "transmission": "5-Speed Manual",
-            "0-100 km/h": "7.2 seconds",
-            "drive": "RWD"
-          }
-        },
-        {
-        "brand": "Mazda",
-          "id": "M-3",
-          "name": "Miata MX-5",
-          "year": "1989",
-          "category": "Convertible",
-          "price": 1069000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The 1989 Mazda MX-5 Miata is the original small roadster that redefined affordable sports cars. It combines an ultra-light body with responsive handling, making it an exceptional choice for driving enthusiasts who value agility and fun over outright power.",
-          "specifications": {
-            "engine": "1.6L Inline-4",
-            "horsepower": "115 hp",
-            "torque": "132 Nm",
-            "transmission": "5-Speed Manual",
-            "0-100 km/h": "8.5 seconds",
-            "drive": "RWD"
-          }
-        },
-        {
-        "brand": "Mazda",
-          "id": "M-4",
-          "name": "MX-5",
-          "year": "2017",
-          "category": "Convertible",
-          "price": 1069000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The 2017 Mazda MX-5 Miata is a modern take on the iconic roadster. With its lightweight design, precise handling, and 2.0L engine, it brings a fresh and exhilarating driving experience while maintaining the Miata's core values of simplicity and driving purity.",
-          "specifications": {
-            "engine": "2.0L Inline-4",
-            "horsepower": "155 hp",
-            "torque": "200 Nm",
-            "transmission": "6-Speed Manual",
-            "0-100 km/h": "6.5 seconds",
-            "drive": "RWD"
-          }
-        },
-      {
-        "brand": "Nissan",
-          "id": "N-1",
-          "name": "GTR R-35",
-          "year": "2020",
-          "category": "Coupe",
-          "price": 559000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The 2020 Nissan GT-R R-35 is an iconic supercar known for its aggressive design and powerhouse performance. Powered by a twin-turbo V6 engine, it offers remarkable acceleration and handling, making it one of the most capable and affordable supercars in its class.",
-          "specifications": {
-            "engine": "3.8L Twin-Turbo V6",
-            "horsepower": "565 hp",
-            "torque": "633 Nm",
-            "transmission": "6-Speed Dual-Clutch",
-            "0-100 km/h": "2.7 seconds",
-            "drive": "AWD"
-          }
-        },
-        {
-        "brand": "Nissan",
-          "id": "N-2",
-          "name": "GTR R-35 NISMO EDITION",
-          "year": "2023",
-          "category": "Coupe",
-          "price": 559000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The 2023 Nissan GT-R R-35 NISMO Edition elevates the legendary GT-R to a new level of performance, with enhanced aerodynamics, a refined suspension system, and additional power from its tuned twin-turbo V6 engine, making it the ultimate expression of Nissan's engineering excellence.",
-          "specifications": {
-            "engine": "3.8L Twin-Turbo V6",
-            "horsepower": "600 hp",
-            "torque": "652 Nm",
-            "transmission": "6-Speed Dual-Clutch",
-            "0-100 km/h": "2.5 seconds",
-            "drive": "AWD"
-          }
-        },
-        {
-
-        "brand": "Nissan",
-          "id": "N-3",
-          "name": "Skyline GTR R-34 V-Spec",
-          "year": "2000",
-          "category": "Coupe",
-          "price": 559000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The 2000 Nissan Skyline GTR R-34 V-Spec is a legendary Japanese performance car that earned its reputation on the track and the street. With its tuned RB26DETT engine and all-wheel drive system, the R-34 was a true icon in the world of high-performance cars.",
-          "specifications": {
-            "engine": "2.6L Inline-6 Twin-Turbo",
-            "horsepower": "280 hp",
-            "torque": "392 Nm",
-            "transmission": "5-Speed Manual",
-            "0-100 km/h": "5.6 seconds",
-            "drive": "AWD"
-          }
-        },
-        {
-
-        "brand": "Nissan",
-          "id": "N-4",
-          "name": "GTR R-34 Nismo",
-          "year": "2000",
-          "category": "Coupe",
-          "price": 559000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The 2000 Nissan GTR R-34 Nismo is the tuned, race-ready version of the iconic Skyline GT-R, developed by Nissan's motorsport division. With extensive modifications to the engine, suspension, and bodywork, the R-34 Nismo was designed for ultimate performance on both the track and road.",
-          "specifications": {
-            "engine": "2.6L Inline-6 Twin-Turbo",
-            "horsepower": "330 hp",
-            "torque": "392 Nm",
-            "transmission": "5-Speed Manual",
-            "0-100 km/h": "5.2 seconds",
-            "drive": "AWD"
-          }
-        },
-        {
-
-        "brand": "Nissan",
-          "id": "N-5",
-          "name": "GTR R-33",
-          "year": "1995",
-          "category": "Coupe",
-          "price": 559000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The 1995 Nissan GTR R-33 is often regarded as one of the most refined and balanced versions of the Skyline GT-R. Featuring a more stable chassis and improved aerodynamics, it offered impressive handling and power, making it a favorite among driving enthusiasts.",
-          "specifications": {
-            "engine": "2.6L Inline-6 Twin-Turbo",
-            "horsepower": "280 hp",
-            "torque": "392 Nm",
-            "transmission": "5-Speed Manual",
-            "0-100 km/h": "5.4 seconds",
-            "drive": "AWD"
-          }
-        },
-        {
-
-        "brand": "Nissan",
-          "id": "N-6",
-          "name": "GTR R-32",
-          "year": "1989",
-          "category": "Coupe",
-          "price": 559000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The 1989 Nissan GTR R-32, also known as the 'Godzilla', is the car that started the GT-R legend. With its 2.6L twin-turbocharged engine and cutting-edge ATTESA AWD system, the R-32 was ahead of its time and set the benchmark for Japanese performance cars.",
-          "specifications": {
-            "engine": "2.6L Inline-6 Twin-Turbo",
-            "horsepower": "280 hp",
-            "torque": "353 Nm",
-            "transmission": "5-Speed Manual",
-            "0-100 km/h": "6.0 seconds",
-            "drive": "AWD"
-          }
-        },
-        {
-
-        "brand": "Nissan",
-          "id": "N-7",
-          "name": "Z Nismo",
-          "year": "2024",
-          "category": "Coupe",
-          "price": 559000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The 2024 Nissan Z Nismo combines the rich heritage of the Z series with modern performance upgrades. With its more powerful engine and improved handling capabilities, the Z Nismo offers an exhilarating driving experience, embodying the spirit of its predecessors with a contemporary twist.",
-          "specifications": {
-            "engine": "3.0L Twin-Turbo V6",
-            "horsepower": "400 hp",
-            "torque": "475 Nm",
-            "transmission": "6-Speed Manual",
-            "0-100 km/h": "4.0 seconds",
-            "drive": "RWD"
-          }
-        },
-        {
-
-        "brand": "Nissan",
-          "id": "N-8",
-          "name": "370Z",
-          "year": "2020",
-          "category": "Coupe",
-          "price": 559000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The 2020 Nissan 370Z is a continuation of the iconic Z lineage, offering an engaging driving experience with a proven 3.7L V6 engine. With its low weight and rear-wheel drive, it offers precise handling and an affordable performance package for enthusiasts.",
-          "specifications": {
-            "engine": "3.7L V6",
-            "horsepower": "332 hp",
-            "torque": "366 Nm",
-            "transmission": "6-Speed Manual",
-            "0-100 km/h": "5.0 seconds",
-            "drive": "RWD"
-          }
-        },
-        {
-
-        "brand": "Nissan",
-          "id": "N-9",
-          "name": "Silvia S15",
-          "year": "1999",
-          "category": "Coupe",
-          "price": 559000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The 1999 Nissan Silvia S15 is a beloved Japanese sports coupe, known for its agile handling and turbocharged engine. It's a fan-favorite among drifting enthusiasts and tuners, offering a great balance of performance and style.",
-          "specifications": {
-            "engine": "2.0L Inline-4 Turbo",
-            "horsepower": "250 hp",
-            "torque": "274 Nm",
-            "transmission": "5-Speed Manual",
-            "0-100 km/h": "6.5 seconds",
-            "drive": "RWD"
-          }
-        },
-      {
-        "brand": "Acura",
-          "id": "A-1",
-          "name": "NSX Type-S",
-          "year": "2022",
-          "category": "Coupe",
-          "price": 789000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The 2022 Acura NSX Type-S is the most performance-focused version of the brand's iconic hybrid supercar. With a twin-turbo V6 and three electric motors, it delivers a balance of power, agility, and technological sophistication. The Type-S edition enhances performance and driving dynamics, making it a thrilling experience for enthusiasts.",
-          "specifications": {
-            "engine": "3.5L Twin-Turbo V6 + 3 Electric Motors",
-            "horsepower": "537 hp",
-            "torque": "541 Nm",
-            "transmission": "9-Speed Dual-Clutch",
-            "0-100 km/h": "2.7 seconds",
-            "drive": "AWD"
-          }
-        },
-        {
-          "brand": "Acura",
-          "id": "A-2",
-          "name": "Integra Type-S",
-          "year": "2024",
-          "category": "Coupe",
-          "price": 789000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The 2024 Acura Integra Type-S is a high-performance version of the iconic Integra hatchback. With a turbocharged 4-cylinder engine and a precise 6-speed manual transmission, it combines agility, style, and driving enjoyment for enthusiasts seeking a pure performance car with modern tech.",
-          "specifications": {
-            "engine": "2.0L Turbo Inline-4",
-            "horsepower": "320 hp",
-            "torque": "400 Nm",
-            "transmission": "6-Speed Manual",
-            "0-100 km/h": "5.6 seconds",
-            "drive": "FWD"
-          }
-        },
-      {
-        "brand": "Lamborghini",
+    {
+      "brand": "Honda",
+      "id": "H-2",
+      "name": "Civic Type-R FK8",
+      "year": "2020",
+      "category": "Hatchback",
+      "price": 939000,
+      "description": "The 2020 Civic Type-R FK8 continues the legacy of the Type-R lineup, featuring a 2.0L turbocharged engine that offers incredible performance. With its sharp handling and aggressive styling, this version of the Type-R is built for those who want a car that's both thrilling on track and practical on the road.",
+      "specifications": {
+        "engine": "2.0L Turbocharged Inline-4",
+        "horsepower": "306 hp",
+        "torque": "400 Nm",
+        "transmission": "6-Speed Manual",
+        "0-100 km/h": "5.8 seconds",
+        "drive": "FWD"
+      }
+    },
+    {
+      "brand": "Honda",
+      "id": "H-3",
+      "name": "Civic Type-R EK9",
+      "year": "2000",
+      "category": "Hatchback",
+      "price": 939000,
+      "description": "The 2000 Honda Civic Type-R EK9 is a lightweight and high-performance version of the Civic. Known for its agility and precision, it comes with a 1.6L engine that revs high and delivers excellent power for its size. A true icon in the hot hatchback world.",
+      "specifications": {
+        "engine": "1.6L Inline-4",
+        "horsepower": "182 hp",
+        "torque": "160 Nm",
+        "transmission": "5-Speed Manual",
+        "0-100 km/h": "6.6 seconds",
+        "drive": "FWD"
+      }
+    },
+    {
+      "brand": "Honda",
+      "id": "H-4",
+      "name": "Civic Type-R FD2",
+      "year": "2007",
+      "category": "Sedan",
+      "price": 939000,
+      "description": "The 2007 Civic Type-R FD2 is a sedan variant of the iconic Civic Type-R. With a 2.0L engine that pushes out 221 hp, it blends performance and practicality in a way that few cars in its class can match.",
+      "specifications": {
+        "engine": "2.0L Inline-4",
+        "horsepower": "221 hp",
+        "torque": "195 Nm",
+        "transmission": "6-Speed Manual",
+        "0-100 km/h": "6.4 seconds",
+        "drive": "FWD"
+      }
+    },
+    {
+      "brand": "Honda",
+      "id": "H-5",
+      "name": "Integra Type-R",
+      "year": "2001",
+      "category": "Coupe",
+      "price": 939000,
+      "description": "The 2001 Integra Type-R is a performance-oriented coupe that delivers an exhilarating driving experience. With a high-revving 1.8L engine producing 195 hp, it was built for enthusiasts who prioritize handling and precision.",
+      "specifications": {
+        "engine": "1.8L Inline-4",
+        "horsepower": "195 hp",
+        "torque": "180 Nm",
+        "transmission": "5-Speed Manual",
+        "0-100 km/h": "6.8 seconds",
+        "drive": "FWD"
+      }
+    },
+    {
+      "brand": "Honda",
+      "id": "H-6",
+      "name": "NSX-R NA1",
+      "year": "1992",
+      "category": "Coupe",
+      "price": 939000,
+      "description": "The 1992 NSX-R NA1 is a legendary Japanese supercar that blends sports car performance with luxury. Powered by a 3.0L V6 engine, it provides exceptional performance with 280 hp and exceptional handling.",
+      "specifications": {
+        "engine": "3.0L V6",
+        "horsepower": "280 hp",
+        "torque": "294 Nm",
+        "transmission": "5-Speed Manual",
+        "0-100 km/h": "5.6 seconds",
+        "drive": "RWD"
+      }
+    },
+    {
+      "brand": "Honda",
+      "id": "H-7",
+      "name": "NSX-R NA2",
+      "year": "2004",
+      "category": "Coupe",
+      "price": 939000,
+      "description": "The 2004 NSX-R NA2 is the second iteration of the iconic NSX series, featuring updated technology and a 3.2L V6 engine. With 290 hp and a lightweight design, it delivers pure performance and handling.",
+      "specifications": {
+        "engine": "3.2L V6",
+        "horsepower": "290 hp",
+        "torque": "299 Nm",
+        "transmission": "6-Speed Manual",
+        "0-100 km/h": "5.5 seconds",
+        "drive": "RWD"
+      }
+    },
+    {
+      "brand": "Honda",
+      "id": "H-8",
+      "name": "S2000 Type-s",
+      "year": "2008",
+      "category": "Convertible",
+      "price": 939000,
+      "description": "The 2008 Honda S2000 Type-S is a roadster known for its high-revving 2.2L engine and exceptional handling. It offers a true sports car experience with a well-balanced chassis and a 6-speed manual transmission.",
+      "specifications": {
+        "engine": "2.2L Inline-4",
+        "horsepower": "237 hp",
+        "torque": "208 Nm",
+        "transmission": "6-Speed Manual",
+        "0-100 km/h": "6.0 seconds",
+        "drive": "RWD"
+      }
+    },
+    {
+      "brand": "Honda",
+      "id": "H-9",
+      "name": "S660",
+      "year": "2015",
+      "category": "Coupe",
+      "price": 939000,
+      "description": "The 2015 Honda S660 is a small, lightweight sports car that provides a fun, agile driving experience. With a 0.66L turbocharged engine, it's perfect for those seeking a compact and responsive car.",
+      "specifications": {
+        "engine": "0.66L Turbocharged Inline-3",
+        "horsepower": "64 hp",
+        "torque": "104 Nm",
+        "transmission": "6-Speed Manual",
+        "0-100 km/h": "10.5 seconds",
+        "drive": "RWD"
+      }
+    },
+    {
+      "brand": "Mazda",
+      "id": "M-1",
+      "name": "RX-7 FD3S",
+      "year": "2001",
+      "category": "Coupe",
+      "price": 1069000,
+      "description": "The 2001 RX-7 FD3S is one of Mazda's most iconic sports cars, powered by a twin-rotor 1.3L rotary engine. It is known for its lightweight construction and near-perfect handling, making it a joy to drive.",
+      "specifications": {
+        "engine": "1.3L Twin-Rotor Rotary",
+        "horsepower": "276 hp",
+        "torque": "314 Nm",
+        "transmission": "5-Speed Manual",
+        "0-100 km/h": "5.9 seconds",
+        "drive": "RWD"
+      }
+    },
+    {
+      "brand": "Mazda",
+      "id": "M-2",
+      "name": "RX-7 FC3S",
+      "year": "1985",
+      "category": "Coupe",
+      "price": 1069000,
+      "description": "The 1985 RX-7 FC3S marks the second generation of Mazda's RX series. Equipped with a 1.3L rotary engine, the FC3S was built for performance enthusiasts with its sharp handling and strong acceleration.",
+      "specifications": {
+        "engine": "1.3L Twin-Rotor Rotary",
+        "horsepower": "146 hp",
+        "torque": "207 Nm",
+        "transmission": "5-Speed Manual",
+        "0-100 km/h": "7.2 seconds",
+        "drive": "RWD"
+      }
+    },
+    {
+      "brand": "Mazda",
+      "id": "M-3",
+      "name": "Miata MX-5",
+      "year": "1989",
+      "category": "Convertible",
+      "price": 1069000,
+      "description": "The 1989 Mazda MX-5 Miata is the original small roadster that redefined affordable sports cars. It combines an ultra-light body with responsive handling, making it an exceptional choice for driving enthusiasts who value agility and fun over outright power.",
+      "specifications": {
+        "engine": "1.6L Inline-4",
+        "horsepower": "115 hp",
+        "torque": "132 Nm",
+        "transmission": "5-Speed Manual",
+        "0-100 km/h": "8.5 seconds",
+        "drive": "RWD"
+      }
+    },
+    {
+      "brand": "Mazda",
+      "id": "M-4",
+      "name": "MX-5",
+      "year": "2017",
+      "category": "Convertible",
+      "price": 1069000,
+      "description": "The 2017 Mazda MX-5 Miata is a modern take on the iconic roadster. With its lightweight design, precise handling, and 2.0L engine, it brings a fresh and exhilarating driving experience while maintaining the Miata's core values of simplicity and driving purity.",
+      "specifications": {
+        "engine": "2.0L Inline-4",
+        "horsepower": "155 hp",
+        "torque": "200 Nm",
+        "transmission": "6-Speed Manual",
+        "0-100 km/h": "6.5 seconds",
+        "drive": "RWD"
+      }
+    },
+    {
+      "brand": "Nissan",
+      "id": "N-1",
+      "name": "GT-R R35",
+      "year": "2020",
+      "category": "Coupe",
+      "price": 559000,
+      "description": "The 2020 Nissan GT-R R-35 is an iconic supercar known for its aggressive design and powerhouse performance. Powered by a twin-turbo V6 engine, it offers remarkable acceleration and handling, making it one of the most capable and affordable supercars in its class.",
+      "specifications": {
+        "engine": "3.8L Twin-Turbo V6",
+        "horsepower": "565 hp",
+        "torque": "633 Nm",
+        "transmission": "6-Speed Dual-Clutch",
+        "0-100 km/h": "2.7 seconds",
+        "drive": "AWD"
+      }
+    },
+    {
+      "brand": "Nissan",
+      "id": "N-2",
+      "name": "GT-R R35 NISMO EDITION",
+      "year": "2023",
+      "category": "Coupe",
+      "price": 559000,
+      "description": "The 2023 Nissan GT-R R-35 NISMO Edition elevates the legendary GT-R to a new level of performance, with enhanced aerodynamics, a refined suspension system, and additional power from its tuned twin-turbo V6 engine, making it the ultimate expression of Nissan's engineering excellence.",
+      "specifications": {
+        "engine": "3.8L Twin-Turbo V6",
+        "horsepower": "600 hp",
+        "torque": "652 Nm",
+        "transmission": "6-Speed Dual-Clutch",
+        "0-100 km/h": "2.5 seconds",
+        "drive": "AWD"
+      }
+    },
+    {
+      "brand": "Nissan",
+      "id": "N-3",
+      "name": "GT-R R34 V-Spec",
+      "year": "2000",
+      "category": "Coupe",
+      "price": 559000,
+      "description": "The 2000 Nissan Skyline GT-R R34 V-Spec is a legendary Japanese performance car that earned its reputation on the track and the street. With its tuned RB26DETT engine and all-wheel drive system, the R-34 was a true icon in the world of high-performance cars.",
+      "specifications": {
+        "engine": "2.6L Inline-6 Twin-Turbo",
+        "horsepower": "280 hp",
+        "torque": "392 Nm",
+        "transmission": "5-Speed Manual",
+        "0-100 km/h": "5.6 seconds",
+        "drive": "AWD"
+      }
+    },
+    {
+      "brand": "Nissan",
+      "id": "N-4",
+      "name": "GT-R R34 Nismo",
+      "year": "2000",
+      "category": "Coupe",
+      "price": 559000,
+      "description": "The 2000 Nissan GT-R R34 Nismo is the tuned, race-ready version of the iconic Skyline GT-R, developed by Nissan's motorsport division. With extensive modifications to the engine, suspension, and bodywork, the R-34 Nismo was designed for ultimate performance on both the track and road.",
+      "specifications": {
+        "engine": "2.6L Inline-6 Twin-Turbo",
+        "horsepower": "330 hp",
+        "torque": "392 Nm",
+        "transmission": "5-Speed Manual",
+        "0-100 km/h": "5.2 seconds",
+        "drive": "AWD"
+      }
+    },
+    {
+      "brand": "Nissan",
+      "id": "N-5",
+      "name": "GT-R R33",
+      "year": "1995",
+      "category": "Coupe",
+      "price": 559000,
+      "description": "The 1995 Nissan GT-R R33 is often regarded as one of the most refined and balanced versions of the Skyline GT-R. Featuring a more stable chassis and improved aerodynamics, it offered impressive handling and power, making it a favorite among driving enthusiasts.",
+      "specifications": {
+        "engine": "2.6L Inline-6 Twin-Turbo",
+        "horsepower": "280 hp",
+        "torque": "392 Nm",
+        "transmission": "5-Speed Manual",
+        "0-100 km/h": "5.4 seconds",
+        "drive": "AWD"
+      }
+    },
+    {
+      "brand": "Nissan",
+      "id": "N-6",
+      "name": "GT-R R32",
+      "year": "1989",
+      "category": "Coupe",
+      "price": 559000,
+      "description": "The 1989 Nissan GT-R R-32, also known as the 'Godzilla', is the car that started the GT-R legend. With its 2.6L twin-turbocharged engine and cutting-edge ATTESA AWD system, the R-32 was ahead of its time and set the benchmark for Japanese performance cars.",
+      "specifications": {
+        "engine": "2.6L Inline-6 Twin-Turbo",
+        "horsepower": "280 hp",
+        "torque": "353 Nm",
+        "transmission": "5-Speed Manual",
+        "0-100 km/h": "6.0 seconds",
+        "drive": "AWD"
+      }
+    },
+    {
+      "brand": "Nissan",
+      "id": "N-7",
+      "name": "Z Nismo",
+      "year": "2024",
+      "category": "Coupe",
+      "price": 559000,
+      "description": "The 2024 Nissan Z Nismo combines the rich heritage of the Z series with modern performance upgrades. With its more powerful engine and improved handling capabilities, the Z Nismo offers an exhilarating driving experience, embodying the spirit of its predecessors with a contemporary twist.",
+      "specifications": {
+        "engine": "3.0L Twin-Turbo V6",
+        "horsepower": "400 hp",
+        "torque": "475 Nm",
+        "transmission": "6-Speed Manual",
+        "0-100 km/h": "4.0 seconds",
+        "drive": "RWD"
+      }
+    },
+    {
+      "brand": "Nissan",
+      "id": "N-8",
+      "name": "370Z",
+      "year": "2020",
+      "category": "Coupe",
+      "price": 559000,
+      "description": "The 2020 Nissan 370Z is a continuation of the iconic Z lineage, offering an engaging driving experience with a proven 3.7L V6 engine. With its low weight and rear-wheel drive, it offers precise handling and an affordable performance package for enthusiasts.",
+      "specifications": {
+        "engine": "3.7L V6",
+        "horsepower": "332 hp",
+        "torque": "366 Nm",
+        "transmission": "6-Speed Manual",
+        "0-100 km/h": "5.0 seconds",
+        "drive": "RWD"
+      }
+    },
+    {
+      "brand": "Nissan",
+      "id": "N-9",
+      "name": "Silvia S15",
+      "year": "1999",
+      "category": "Coupe",
+      "price": 559000,
+      "description": "The 1999 Nissan Silvia S15 is a beloved Japanese sports coupe, known for its agile handling and turbocharged engine. It's a fan-favorite among drifting enthusiasts and tuners, offering a great balance of performance and style.",
+      "specifications": {
+        "engine": "2.0L Inline-4 Turbo",
+        "horsepower": "250 hp",
+        "torque": "274 Nm",
+        "transmission": "5-Speed Manual",
+        "0-100 km/h": "6.5 seconds",
+        "drive": "RWD"
+      }
+    },
+    {
+      "brand": "Acura",
+      "id": "A-1",
+      "name": "NSX Type-S",
+      "year": "2022",
+      "category": "Coupe",
+      "price": 789000,
+      "description": "The 2022 Acura NSX Type-S is the most performance-focused version of the brand's iconic hybrid supercar. With a twin-turbo V6 and three electric motors, it delivers a balance of power, agility, and technological sophistication. The Type-S edition enhances performance and driving dynamics, making it a thrilling experience for enthusiasts.",
+      "specifications": {
+        "engine": "3.5L Twin-Turbo V6 + 3 Electric Motors",
+        "horsepower": "537 hp",
+        "torque": "541 Nm",
+        "transmission": "9-Speed Dual-Clutch",
+        "0-100 km/h": "2.7 seconds",
+        "drive": "AWD"
+      }
+    },
+    {
+      "brand": "Acura",
+      "id": "A-2",
+      "name": "Integra Type-S",
+      "year": "2024",
+      "category": "Coupe",
+      "price": 789000,
+      "description": "The 2024 Acura Integra Type-S is a high-performance version of the iconic Integra hatchback. With a turbocharged 4-cylinder engine and a precise 6-speed manual transmission, it combines agility, style, and driving enjoyment for enthusiasts seeking a pure performance car with modern tech.",
+      "specifications": {
+        "engine": "2.0L Turbo Inline-4",
+        "horsepower": "320 hp",
+        "torque": "400 Nm",
+        "transmission": "6-Speed Manual",
+        "0-100 km/h": "5.6 seconds",
+        "drive": "FWD"
+      }
+    },
+    {
+      "brand": "Lamborghini",
           "id": "L-1",
           "name": "Huracan EVO",
           "year": "2019",
           "category": "Coupe",
           "price": 548000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The 2019 Lamborghini Huracán EVO is an exceptional supercar that redefines driving performance. Powered by a 5.2L V10 engine, it delivers outstanding speed and agility, enhanced by advanced aerodynamics and the Lamborghini Dinamica Veicolo Integrata (LDVI) system for ultimate driving precision.",
           "specifications": {
             "engine": "5.2L V10",
@@ -584,13 +579,12 @@
           }
         },
         {
-        "brand": "Lamborghini",
+      "brand": "Lamborghini",
           "id": "L-2",
           "name": "Huracan EVO RWD",
           "year": "2021",
           "category": "Coupe",
           "price": 548000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The 2021 Lamborghini Huracán EVO RWD is the rear-wheel-drive version of the Huracán EVO, offering a more engaging and raw driving experience. With its naturally aspirated V10 engine, it delivers blistering acceleration and precise handling, designed for purists seeking excitement on the road.",
           "specifications": {
             "engine": "5.2L V10",
@@ -602,13 +596,12 @@
           }
         },
         {
-        "brand": "Lamborghini",
+      "brand": "Lamborghini",
           "id": "L-3",
           "name": "Huracan STO",
           "year": "2022",
           "category": "Coupe",
           "price": 548000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The 2022 Lamborghini Huracán STO is a track-focused supercar that brings Lamborghini's racing heritage to the road. With lightweight construction, enhanced aerodynamics, and a powerful V10 engine, the STO is designed for precision and performance, delivering an unforgettable driving experience.",
           "specifications": {
             "engine": "5.2L V10",
@@ -620,13 +613,12 @@
           }
         },
         {
-        "brand": "Lamborghini",
+      "brand": "Lamborghini",
           "id": "L-4",
           "name": "Huracan Technica",
           "year": "2023",
           "category": "Coupe",
           "price": 548000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The 2023 Lamborghini Huracán Technica brings advanced technology and performance to the forefront. Designed for high-performance driving, it combines the power of the V10 engine with cutting-edge handling systems, ensuring an exhilarating experience whether on the road or the track.",
           "specifications": {
             "engine": "5.2L V10",
@@ -638,13 +630,12 @@
           }
         },
         {
-        "brand": "Lamborghini",
+      "brand": "Lamborghini",
           "id": "L-5",
           "name": "Aventador S",
           "year": "2017",
           "category": "Coupe",
           "price": 548000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The 2017 Lamborghini Aventador S is a stunning supercar that blends breathtaking performance with aggressive styling. Its naturally aspirated V12 engine provides monstrous power and acceleration, complemented by dynamic steering and rear-wheel-drive dynamics for unmatched excitement behind the wheel.",
           "specifications": {
             "engine": "6.5L V12",
@@ -656,13 +647,12 @@
           }
         },
         {
-        "brand": "Lamborghini",
+      "brand": "Lamborghini",
           "id": "L-6",
           "name": "Aventador SVJ",
           "year": "2019",
           "category": "Coupe",
           "price": 548000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The 2019 Lamborghini Aventador SVJ is a race-bred masterpiece that pushes the boundaries of performance and design. With a powerful V12 engine, lightweight construction, and active aerodynamics, the SVJ offers extreme handling and a mind-blowing driving experience.",
           "specifications": {
             "engine": "6.5L V12",
@@ -674,13 +664,12 @@
           }
         },
         {
-        "brand": "Lamborghini",
+      "brand": "Lamborghini",
           "id": "L-7",
           "name": "Aventador Ultimae",
           "year": "2022",
           "category": "Coupe",
           "price": 548000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The 2022 Lamborghini Aventador Ultimae is the final iteration of the Aventador series, combining all the performance upgrades of the SVJ with the refinement of the base Aventador. It’s a limited-edition model that showcases Lamborghini's best technology and performance.",
           "specifications": {
             "engine": "6.5L V12",
@@ -692,13 +681,12 @@
           }
         },
         {
-        "brand": "Lamborghini",
+      "brand": "Lamborghini",
           "id": "L-8",
           "name": "Reveulto",
           "year": "2024",
           "category": "Coupe",
           "price": 548000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The 2024 Lamborghini Reveulto is a groundbreaking hybrid supercar that integrates cutting-edge hybrid technology with Lamborghini's iconic V12 engine. It offers an electrifying performance, futuristic design, and unrivaled driving dynamics.",
           "specifications": {
             "engine": "6.5L V12 + Electric Motors",
@@ -710,14 +698,13 @@
           }
         },
         {
-        "brand": "Lamborghini",
+      "brand": "Lamborghini",
           "id": "L-9",
-          "name": "Temirario",
+          "name": "Temerario",
           "year": "2025",
           "category": "Coupe",
           "price": "Contact For Sale",
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The 2025 Lamborghini Temirario is a highly anticipated hypercar with revolutionary performance capabilities, but detailed specifications are currently undisclosed.",
+          "description": "The 2025 Lamborghini Temerario is a highly anticipated hypercar with revolutionary performance capabilities, but detailed specifications are currently undisclosed.",
           "specifications": {
             "engine": "4.0L BI-Turbo V8 Hybrid",
             "horsepower": "907 hp",
@@ -728,13 +715,12 @@
           }
         },
         {
-        "brand": "Lamborghini",
+      "brand": "Lamborghini",
           "id": "L-10",
           "name": "Urus",
           "year": "2019",
           "category": "SUV",
           "price": 548000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Lamborghini Urus is a luxury SUV combining the performance of a supercar with the utility of an off-roader. Its 4.0L twin-turbo V8 engine produces 650 hp and achieves 0-100 km/h in 3.6 seconds.",
           "specifications": {
             "engine": "4.0L Twin-Turbo V8",
@@ -746,13 +732,12 @@
           }
         },
         {
-        "brand": "Lamborghini",
+      "brand": "Lamborghini",
           "id": "L-11",
           "name": "Urus Performante",
           "year": "2023",
           "category": "SUV",
           "price": "Contact For Sale",
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Urus Performante takes performance to the next level with a more powerful 4.0L V8 engine producing 657 hp. Enhanced aerodynamics and lightweight design allow it to hit 100 km/h in just 3.3 seconds.",
           "specifications": {
             "engine": "4.0L Twin-Turbo V8",
@@ -764,13 +749,12 @@
           }
         },
         {
-        "brand": "Lamborghini",
+      "brand": "Lamborghini",
           "id": "L-12",
           "name": "Urus SE",
           "year": "2025",
           "category": "SUV",
           "price": 548000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The 2025 Urus SE is an upcoming variant of the Urus, designed with refined luxury and superior performance. It promises advanced hybrid technology with enhanced driving dynamics.",
           "specifications": {
             "engine": "4.0L Twin-Turbo V8 Hybrid",
@@ -782,13 +766,12 @@
           }
         },
         {
-        "brand": "Lamborghini",
+      "brand": "Lamborghini",
           "id": "L-13",
           "name": "Urus S",
           "year": "2023",
           "category": "SUV",
           "price": 548000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Urus S delivers an unmatched blend of comfort and performance. With 666 hp from its 4.0L twin-turbo V8, it accelerates from 0-100 km/h in 3.5 seconds, all while maintaining luxury SUV comfort.",
           "specifications": {
             "engine": "4.0L Twin-Turbo V8",
@@ -798,15 +781,14 @@
             "0-100 km/h": "3.5 seconds",
             "drive": "AWD"
           }
-        },
-      {
-        "brand": "Ford",
+    },
+    {
+      "brand": "Ford",
           "id": "F-1",
           "name": "Mustang GT",
           "year": "2018",
           "category": "Coupe",
           "price": 659000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The 2018 Ford Mustang GT offers thrilling performance with its 5.0L V8 engine, delivering a balance of raw power and modern features for driving enthusiasts.",
           "specifications": {
             "engine": "5.0L V8",
@@ -818,13 +800,12 @@
           }
         },
         {
-        "brand": "Ford",
+      "brand": "Ford",
           "id": "F-2",
           "name": "Mustang Shelby GT350",
           "year": "2019",
           "category": "Coupe",
           "price": 659000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Shelby GT350 is a track-ready Mustang featuring a naturally aspirated 5.2L V8, precise handling, and aggressive styling.",
           "specifications": {
             "engine": "5.2L V8",
@@ -836,13 +817,12 @@
           }
         },
         {
-        "brand": "Ford",
+      "brand": "Ford",
           "id": "F-3",
           "name": "Mustang Shelby GT500",
           "year": "2020",
           "category": "Coupe",
           "price": 659000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Shelby GT500 is the most powerful Mustang, boasting a supercharged 5.2L V8 engine and advanced aerodynamics for unparalleled performance.",
           "specifications": {
             "engine": "5.2L Supercharged V8",
@@ -854,13 +834,12 @@
           }
         },
         {
-        "brand": "Ford",
+      "brand": "Ford",
           "id": "F-4",
           "name": "Mustang Dark Horse",
           "year": "2024",
           "category": "Coupe",
           "price": 659000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The 2024 Mustang Dark Horse is a performance-oriented variant featuring enhanced dynamics and a specially tuned 5.0L V8.",
           "specifications": {
             "engine": "5.0L V8",
@@ -872,14 +851,13 @@
           }
         },
         {
-        "brand": "Ford",
+      "brand": "Ford",
           "id": "F-5",
-          "name": "Mustang Mach 1",
+          "name": "Mustang Mach-1",
           "year": "2021",
           "category": "Coupe",
           "price": 659000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The 2021 Mustang Mach 1 bridges the gap between performance and heritage, offering a tuned 5.0L V8 and track-focused upgrades.",
+          "description": "The 2021 Mustang Mach-1 bridges the gap between performance and heritage, offering a tuned 5.0L V8 and track-focused upgrades.",
           "specifications": {
             "engine": "5.0L V8",
             "horsepower": "480 hp",
@@ -888,15 +866,14 @@
             "0-100 km/h": "4.0 seconds",
             "drive": "RWD"
           }
-        },
-      {
-        "brand": "Ferrari",
+    },
+    {
+      "brand": "Ferrari",
           "id": "FE-1",
           "name": "296 GTB",
           "year": "2022",
           "category": ["Coupe", "Supercars"],
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Ferrari 296 GTB is a mid-engine hybrid supercar that combines a V6 engine with an electric motor for thrilling performance and enhanced efficiency.",
           "specifications": {
             "engine": "3.0L Twin-Turbo V6 with Electric Motor",
@@ -908,13 +885,12 @@
           }
         },
         {
-        "brand": "Ferrari",
+      "brand": "Ferrari",
           "id": "FE-2",
           "name": "SF90 Stradale",
           "year": "2020",
           "category": ["Coupe", "Supercars"],
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Ferrari SF90 Stradale is the brand's first plug-in hybrid, offering unmatched performance with its V8 engine and three electric motors.",
           "specifications": {
             "engine": "4.0L Twin-Turbo V8 with Three Electric Motors",
@@ -926,13 +902,12 @@
           }
         },
         {
-        "brand": "Ferrari",
+      "brand": "Ferrari",
           "id": "FE-3",
           "name": "Purosangue",
           "year": "2023",
           "category": ["SUV", "Supercars"],
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Ferrari Purosangue is Ferrari's first SUV, combining practicality with a naturally aspirated V12 engine and unmistakable performance.",
           "specifications": {
             "engine": "6.5L Naturally Aspirated V12",
@@ -944,13 +919,12 @@
           }
         },
         {
-        "brand": "Ferrari",
+      "brand": "Ferrari",
           "id": "FE-4",
           "name": "812 Superfast",
           "year": "2018",
           "category": ["Coupe", "Supercars"],
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Ferrari 812 Superfast is a front-engined V12 supercar, known for its exceptional power and timeless Ferrari design.",
           "specifications": {
             "engine": "6.5L Naturally Aspirated V12",
@@ -962,13 +936,12 @@
           }
         },
         {
-        "brand": "Ferrari",
+      "brand": "Ferrari",
           "id": "FE-5",
           "name": "Roma",
           "year": "2020",
           "category": ["Coupe", "Supercars"],
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Ferrari Roma is a sleek and elegant coupe with a focus on luxury and grand touring, powered by a responsive V8 engine.",
           "specifications": {
             "engine": "3.9L Twin-Turbo V8",
@@ -978,15 +951,14 @@
             "0-100 km/h": "3.4 seconds",
             "drive": "RWD"
           }
-        },
-      {
-        "brand": "Porsche",
+    },
+    {
+      "brand": "Porsche",
           "id": "P-1",
           "name": "911 Carrera GTS (992.1)",
           "year": "2022",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Porsche 911 Carrera GTS (992.1) offers a blend of powerful performance and refined luxury, ideal for any enthusiast.",
           "specifications": {
             "engine": "3.0L Twin-Turbo Flat-6",
@@ -998,13 +970,12 @@
           }
         },
         {
-        "brand": "Porsche",
+      "brand": "Porsche",
           "id": "P-2",
           "name": "911 Turbo S (992.1)",
           "year": "2020",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Porsche 911 Turbo S (992.1) is a high-performance variant with stunning acceleration and exceptional handling.",
           "specifications": {
             "engine": "3.8L Twin-Turbo Flat-6",
@@ -1016,13 +987,12 @@
           }
         },
         {
-        "brand": "Porsche",
+      "brand": "Porsche",
           "id": "P-3",
           "name": "911 Carrera GTS (992.2)",
           "year": "2025",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Porsche 911 Carrera GTS (992.2) brings performance and luxury to the next level with an upgraded engine and sharper handling.",
           "specifications": {
             "engine": "3.0L Twin-Turbo Flat-6",
@@ -1034,13 +1004,12 @@
           }
         },
         {
-        "brand": "Porsche",
+      "brand": "Porsche",
           "id": "P-4",
           "name": "911 GT3 (992.1)",
           "year": "2022",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Porsche 911 GT3 (992.1) is engineered for pure performance on the track, featuring a naturally aspirated engine for unmatched driving pleasure.",
           "specifications": {
             "engine": "4.0L Naturally Aspirated Flat-6",
@@ -1052,13 +1021,12 @@
           }
         },
         {
-        "brand": "Porsche",
+      "brand": "Porsche",
           "id": "P-5",
           "name": "911 GT3 (992.2)",
           "year": "2025",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Porsche 911 GT3 (992.2) brings improvements in aerodynamics and handling, refining the ultimate driving experience.",
           "specifications": {
             "engine": "4.0L Naturally Aspirated Flat-6",
@@ -1070,13 +1038,12 @@
           }
         },
         {
-        "brand": "Porsche",
+      "brand": "Porsche",
           "id": "P-6",
           "name": "911 GT3RS (992.1)",
           "year": "2023",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Porsche 911 GT3RS (992.1) is the pinnacle of track-focused performance, offering exceptional power and track handling.",
           "specifications": {
             "engine": "4.0L Naturally Aspirated Flat-6",
@@ -1088,13 +1055,12 @@
           }
         },
         {
-        "brand": "Porsche",
+      "brand": "Porsche",
           "id": "P-7",
           "name": "911 GT3RS Manthey (992.2)",
           "year": "2025",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Porsche 911 GT3RS Manthey (992.2) takes the GT3RS to the next level, providing additional track enhancements and performance.",
           "specifications": {
             "engine": "4.0L Naturally Aspirated Flat-6",
@@ -1106,13 +1072,12 @@
           }
         },
         {
-        "brand": "Porsche",
+      "brand": "Porsche",
           "id": "P-8",
           "name": "718 Cayman GTS",
           "year": "2018",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Porsche 718 Cayman GTS offers a perfect blend of sportiness and everyday usability with an agile handling package.",
           "specifications": {
             "engine": "2.5L Turbocharged Flat-4",
@@ -1124,13 +1089,12 @@
           }
         },
         {
-        "brand": "Porsche",
+      "brand": "Porsche",
           "id": "P-9",
           "name": "718 Cayman GT4",
           "year": "2020",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Porsche 718 Cayman GT4 is a performance-oriented sports car with track-ready performance and handling.",
           "specifications": {
             "engine": "4.0L Naturally Aspirated Flat-6",
@@ -1142,13 +1106,12 @@
           }
         },
         {
-        "brand": "Porsche",
+      "brand": "Porsche",
           "id": "P-10",
           "name": "718 Cayman GT4RS",
           "year": "2022",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Porsche 718 Cayman GT4RS pushes the boundaries of track performance with a focus on speed, precision, and agility.",
           "specifications": {
             "engine": "4.0L Naturally Aspirated Flat-6",
@@ -1160,13 +1123,12 @@
           }
         },
         {
-        "brand": "Porsche",
+      "brand": "Porsche",
           "id": "P-11",
           "name": "718 Spyder RS",
           "year": "2024",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Porsche 718 Spyder RS is the ultimate open-top sports car, offering a blend of exceptional performance and driving pleasure.",
           "specifications": {
             "engine": "4.0L Naturally Aspirated Flat-6",
@@ -1178,13 +1140,12 @@
           }
         },
         {
-        "brand": "Porsche",
+      "brand": "Porsche",
           "id": "P-12",
           "name": "Cayenne GTS",
           "year": "2020",
           "category": "SUV",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Porsche Cayenne GTS is a high-performance SUV with a powerful engine and a focus on sporty handling, offering both practicality and speed.",
           "specifications": {
             "engine": "4.0L Twin-Turbo V8",
@@ -1196,13 +1157,12 @@
           }
         },
         {
-        "brand": "Porsche",
+      "brand": "Porsche",
           "id": "P-13",
           "name": "Panamera Turbo S E-Hybrid",
           "year": "2025",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Porsche Panamera Turbo S E-Hybrid offers incredible performance paired with hybrid efficiency, ideal for those seeking a luxurious yet eco-conscious ride.",
           "specifications": {
             "engine": "4.0L Twin-Turbo V8 + Electric Motor",
@@ -1214,13 +1174,12 @@
           }
         },
         {
-        "brand": "Porsche",
+      "brand": "Porsche",
           "id": "P-14",
           "name": "Macan GTS",
           "year": "2022",
           "category": "SUV",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Porsche Macan GTS is a sport-oriented SUV that blends performance with practicality, featuring a turbocharged engine and sharp handling.",
           "specifications": {
             "engine": "2.9L Twin-Turbo V6",
@@ -1232,31 +1191,29 @@
           }
         },
         {
-        "brand": "Porsche",
+      "brand": "Porsche",
           "id": "P-15",
           "name": "Macan Turbo",
           "year": "2025",
           "category": "SUV",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Macan Turbo combines powerful performance and off-road capability with a refined driving experience and luxury features.",
           "specifications": {
-            "engine": "2.9L Twin-Turbo V6",
-            "horsepower": "440 hp",
-            "torque": "550 Nm",
-            "transmission": "7-Speed PDK",
-            "0-100 km/h": "4.1 seconds",
+            "engine": "2 Electric Motors",
+            "horsepower": "630 hp",
+            "torque": "1,129 Nm",
+            "transmission": "1-Speed Direct Drive",
+            "0-100 km/h": "3.3 seconds",
             "drive": "AWD"
           }
         },
         {
-        "brand": "Porsche",
+      "brand": "Porsche",
           "id": "P-16",
           "name": "Taycan Turbo",
           "year": "2020",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Porsche Taycan Turbo is a performance electric vehicle that blends Porsche's iconic driving dynamics with cutting-edge electric technology.",
           "specifications": {
             "engine": "Electric Dual Motor",
@@ -1268,13 +1225,12 @@
           }
         },
         {
-        "brand": "Porsche",
+      "brand": "Porsche",
           "id": "P-17",
           "name": "Taycan Turbo S Cross Turismo",
           "year": "2021",
           "category": ["Coupe"],
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Taycan Turbo S Cross Turismo is the ultimate combination of electric performance and all-terrain capability, offering a unique Porsche experience.",
           "specifications": {
             "engine": "Electric Dual Motor",
@@ -1286,13 +1242,12 @@
           }
         },
         {
-        "brand": "Porsche",
+      "brand": "Porsche",
           "id": "P-18",
           "name": "Taycan Turbo Cross Turismo",
           "year": "2025",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Taycan Turbo Cross Turismo offers excellent electric performance with more utility and off-road capability for adventurous drivers.",
           "specifications": {
             "engine": "Electric Dual Motor",
@@ -1304,13 +1259,12 @@
           }
         },
         {
-        "brand": "Porsche",
+      "brand": "Porsche",
           "id": "P-19",
           "name": "Taycan Turbo GT",
           "year": "2025",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Taycan Turbo GT offers the ultimate in electric performance, delivering the fastest acceleration and track-focused capabilities.",
           "specifications": {
             "engine": "Electric Dual Motor",
@@ -1321,14 +1275,30 @@
             "drive": "AWD"
           }
         },
-      {
-        "brand": "BMW",
+        {
+      "brand": "Porsche",
+          "id": "P-20",
+          "name": "Cayenne Turbo GT",
+          "year": "2022",
+          "category": "SUV",
+          "price": 1260000,
+          "description": "The Porsche Cayenne Turbo GT is a high-performance SUV that combines track-level dynamics with everyday practicality, powered by a robust turbocharged V8 engine.",
+          "specifications": {
+            "engine": "4.0L Twin-Turbo V8",
+            "horsepower": "631 hp",
+            "torque": "850 Nm",
+            "transmission": "8-Speed Tiptronic S",
+            "0-100 km/h": "3.3 seconds",
+            "drive": "AWD"
+          }
+    },
+    {
+      "brand": "BMW",
           "id": "B-1",
           "name": "M240i",
           "year": "2022",
           "category": ["Coupe"],
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The M240i combines everyday usability with the power of a 6-cylinder engine for an exhilarating drive.",
           "specifications": {
             "engine": "3.0L Turbocharged Inline-6",
@@ -1340,13 +1310,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-2",
-          "name": "M2",
+          "name": "M2 23",
           "year": "2023",
           "category": ["Coupe"],
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The M2 offers dynamic handling with a focus on precision and agility for driving enthusiasts.",
           "specifications": {
             "engine": "3.0L Turbocharged Inline-6",
@@ -1358,13 +1327,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-3",
-          "name": "M2",
+          "name": "M2 25",
           "year": "2025",
           "category": ["Coupe"],
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The 2025 M2 enhances the thrilling performance with a refined powertrain and improved handling capabilities.",
           "specifications": {
             "engine": "3.0L Turbocharged Inline-6",
@@ -1376,13 +1344,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-4",
           "name": "M3 Competition",
           "year": "2021",
           "category": ["Sedan"],
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The M3 Competition offers exceptional track-ready performance with a sophisticated balance of power and handling.",
           "specifications": {
             "engine": "3.0L Twin-Turbo Inline-6",
@@ -1394,13 +1361,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-5",
           "name": "M3 Touring",
           "year": "2023",
           "category": ["Touring"],
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The M3 Touring is a high-performance wagon that combines practicality with the thrilling power of the M3 series.",
           "specifications": {
             "engine": "3.0L Twin-Turbo Inline-6",
@@ -1412,13 +1378,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-6",
           "name": "M3 CS",
           "year": "2024",
           "category": ["Sedan"],
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The M3 CS is a limited edition of the M3, offering even sharper handling and increased performance.",
           "specifications": {
             "engine": "3.0L Twin-Turbo Inline-6",
@@ -1430,13 +1395,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-7",
-          "name": "M3",
+          "name": "M3 25",
           "year": "2025",
           "category": ["Sedan"],
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The 2025 M3 pushes boundaries with an enhanced engine and improved driving dynamics.",
           "specifications": {
             "engine": "3.0L Twin-Turbo Inline-6",
@@ -1448,13 +1412,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-8",
           "name": "M4 Competition",
           "year": "2021",
           "category": ["Coupe"],
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The M4 Competition Coupe provides an exciting balance of performance and luxury in a track-ready package.",
           "specifications": {
             "engine": "3.0L Twin-Turbo Inline-6",
@@ -1466,13 +1429,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-9",
           "name": "M4 CS",
           "year": "2025",
           "category": ["Coupe"],
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The M4 CS delivers track-level performance with a focus on agility and precision.",
           "specifications": {
             "engine": "3.0L Twin-Turbo Inline-6",
@@ -1484,13 +1446,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-10",
           "name": "M5 Competition",
           "year": "2019",
           "category": ["Sedan"],
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The M5 Competition is a blend of high-end luxury and savage performance for ultimate driving pleasure.",
           "specifications": {
             "engine": "4.4L Twin-Turbo V8",
@@ -1502,13 +1463,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-11",
           "name": "M5 CS",
           "year": "2022",
           "category": ["Sedan"],
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The M5 CS is the top-of-the-line M5, providing unmatched performance in a luxurious package.",
           "specifications": {
             "engine": "4.4L Twin-Turbo V8",
@@ -1520,13 +1480,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-12",
-          "name": "M5",
+          "name": "M5 25",
           "year": "2025",
           "category": ["Sedan"],
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The 2025 M5 continues the tradition of blending supercar performance with luxury and practicality.",
           "specifications": {
             "engine": "4.4L Twin-Turbo V8",
@@ -1538,13 +1497,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-13",
           "name": "M5 Touring",
           "year": "2025",
           "category": ["Touring"],
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The M5 Touring combines M5 performance with the practicality of a touring estate, offering versatility and speed.",
           "specifications": {
             "engine": "4.4L Twin-Turbo V8",
@@ -1556,13 +1514,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-14",
           "name": "X3 M Competition",
           "year": "2024",
           "category": ["SUV"],
           "price": 7600000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The X3 M Competition is an ultra-performance SUV offering aggressive power and handling with luxury features.",
           "specifications": {
             "engine": "3.0L Twin-Turbo Inline-6",
@@ -1574,13 +1531,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-15",
           "name": "X5 M Competition",
           "year": "2024",
           "category": ["SUV"],
           "price": 8000000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The X5 M Competition brings a perfect combination of off-road capability and road-hugging performance.",
           "specifications": {
             "engine": "4.4L Twin-Turbo V8",
@@ -1592,13 +1548,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-16",
           "name": "X6 M Competition",
           "year": "2024",
           "category": ["SUV"],
           "price": 8500000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The X6 M Competition offers a blend of coupe-style performance with the benefits of an SUV's versatility.",
           "specifications": {
             "engine": "4.4L Twin-Turbo V8",
@@ -1610,13 +1565,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-17",
           "name": "X7 M60i",
           "year": "2024",
           "category": ["SUV"],
           "price": 9500000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The X7 M60i blends the luxurious design of the X7 with the aggressive performance characteristics of M models.",
           "specifications": {
             "engine": "4.4L Twin-Turbo V8",
@@ -1628,13 +1582,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-18",
-          "name": "M8 Competition Coupe",
+          "name": "M8 Competition",
           "year": "2024",
           "category": ["Coupe"],
           "price": 14000000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The M8 Competition Coupe offers exhilarating performance and refined luxury, crafted for the performance enthusiast.",
           "specifications": {
             "engine": "4.4L Twin-Turbo V8",
@@ -1646,13 +1599,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-19",
           "name": "M8 Competition Convertible",
           "year": "2024",
           "category": ["Convertible"],
           "price": 14500000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The M8 Competition Convertible offers an open-air driving experience without sacrificing performance or luxury.",
           "specifications": {
             "engine": "4.4L Twin-Turbo V8",
@@ -1664,13 +1616,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-20",
           "name": "i4 M50",
           "year": "2024",
           "category": ["Electric Sedan"],
           "price": 5900000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The i4 M50 is an electric sedan that combines sustainable performance with the M division's heritage.",
           "specifications": {
             "engine": "Electric Powertrain",
@@ -1682,13 +1633,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-21",
           "name": "i7 M70 xDrive",
           "year": "2024",
           "category": ["Electric Sedan"],
           "price": 9500000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The i7 M70 xDrive is an all-electric luxury sedan that redefines driving with its high-end technology and performance.",
           "specifications": {
             "engine": "Electric Powertrain",
@@ -1700,13 +1650,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-22",
           "name": "iX M60",
           "year": "2024",
           "category": ["Electric SUV"],
           "price": 8500000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The iX M60 offers impressive electric performance with the agility and handling expected from an M model.",
           "specifications": {
             "engine": "Electric Powertrain",
@@ -1718,13 +1667,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-23",
           "name": "M760e xDrive",
           "year": "2024",
           "category": ["Luxury Sedan"],
           "price": 12000000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The M760e xDrive combines ultra-luxury with electrified performance, offering a hybrid powertrain for smooth acceleration.",
           "specifications": {
             "engine": "Electric Hybrid Powertrain",
@@ -1736,13 +1684,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-24",
           "name": "XM",
           "year": "2024",
           "category": ["SUV"],
           "price": 16000000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The XM is an ultra-luxurious and powerful SUV, combining V8 performance with a sophisticated hybrid setup.",
           "specifications": {
             "engine": "Electric Hybrid Powertrain",
@@ -1754,13 +1701,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-25",
           "name": "X4 M Competition",
           "year": "2024",
           "category": ["SUV"],
           "price": 7900000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The X4 M Competition is a sporty compact SUV that blends aggressive performance with a practical design.",
           "specifications": {
             "engine": "3.0L Twin-Turbo Inline-6",
@@ -1772,13 +1718,12 @@
           }
         },
         {
-        "brand": "BMW",
+      "brand": "BMW",
           "id": "B-26",
           "name": "i5 M60 xDrive",
           "year": "2024",
           "category": ["Electric Sedan"],
           "price": 6800000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The i5 M60 xDrive offers high-end electric performance, combining BMW's luxury with the power of a full electric powertrain.",
           "specifications": {
             "engine": "Electric Powertrain",
@@ -1788,33 +1733,14 @@
             "0-100 km/h": "3.8 seconds",
             "drive": "AWD"
           }
-        },
-        {
-        "brand": "BMW",
-          "id": "B-27",
-          "name": "i7 xDrive60",
-          "year": "2024",
-          "category": ["Electric Sedan"],
-          "price": 7800000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The i7 xDrive60 is an electric luxury sedan that offers refined performance and cutting-edge technology.",
-          "specifications": {
-            "engine": "Electric Powertrain",
-            "horsepower": "536 hp",
-            "torque": "749 Nm",
-            "transmission": "Single-Speed Automatic",
-            "0-100 km/h": "4.0 seconds",
-            "drive": "AWD"
-          }
-        },
-      {
-        "brand": "Mercedes-Benz",
+    },
+    {
+      "brand": "Mercedes-Benz",
           "id": "MB-1",
           "name": "C43",
           "year": "2022",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Mercedes-Benz C43 is a performance-oriented coupe with refined luxury and dynamic driving features.",
           "specifications": {
             "engine": "3.0L Turbo V6",
@@ -1826,13 +1752,12 @@
           }
         },
         {
-        "brand": "Mercedes-Benz",
+      "brand": "Mercedes-Benz",
           "id": "MB-2",
           "name": "CLE 53",
           "year": "2024",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The CLE 53 is a stylish coupe with the perfect combination of high-performance dynamics and luxury features.",
           "specifications": {
             "engine": "3.0L Turbo I6",
@@ -1844,13 +1769,12 @@
           }
         },
         {
-        "brand": "Mercedes-Benz",
+      "brand": "Mercedes-Benz",
           "id": "MB-3",
           "name": "CLS 53",
           "year": "2022",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The CLS 53 Coupe offers a sleek design with a powerful performance engine and premium features.",
           "specifications": {
             "engine": "3.0L Turbo I6",
@@ -1862,13 +1786,12 @@
           }
         },
         {
-        "brand": "Mercedes-Benz",
+      "brand": "Mercedes-Benz",
           "id": "MB-4",
           "name": "C63",
           "year": "2022",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The C63 is a potent coupe blending aggressive power with luxury features, ideal for driving enthusiasts.",
           "specifications": {
             "engine": "4.0L Twin-Turbo V8",
@@ -1880,13 +1803,12 @@
           }
         },
         {
-        "brand": "Mercedes-Benz",
+      "brand": "Mercedes-Benz",
           "id": "MB-5",
           "name": "A45",
           "year": "2022",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The A45 is a compact luxury coupe offering aggressive styling and an efficient, powerful engine.",
           "specifications": {
             "engine": "2.0L Turbocharged I4",
@@ -1898,13 +1820,12 @@
           }
         },
         {
-        "brand": "Mercedes-Benz",
+      "brand": "Mercedes-Benz",
           "id": "MB-6",
           "name": "CLA 45",
           "year": "2022",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The CLA 45 combines sleek looks with incredible acceleration and handling, perfect for performance-minded drivers.",
           "specifications": {
             "engine": "2.0L Turbocharged I4",
@@ -1916,13 +1837,12 @@
           }
         },
         {
-        "brand": "Mercedes-Benz",
+      "brand": "Mercedes-Benz",
           "id": "MB-7",
           "name": "G63",
           "year": "2023",
           "category": "SUV",
           "price": 16990000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The G63 is a rugged yet luxurious SUV with a powerful V8 engine and unparalleled off-road capability.",
           "specifications": {
             "engine": "4.0L Twin-Turbo V8",
@@ -1934,13 +1854,12 @@
           }
         },
         {
-        "brand": "Mercedes-Benz",
+      "brand": "Mercedes-Benz",
           "id": "MB-8",
-          "name": "GLC43 Coupe",
+          "name": "GLC 63",
           "year": "2023",
           "category": "SUV",
           "price": 16990000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The GLC43 Coupe combines dynamic styling with powerful performance in a sporty SUV package.",
           "specifications": {
             "engine": "3.0L Turbo V6",
@@ -1952,13 +1871,12 @@
           }
         },
         {
-        "brand": "Mercedes-Benz",
+      "brand": "Mercedes-Benz",
           "id": "MB-9",
-          "name": "GLC53",
+          "name": "GLE 53",
           "year": "2023",
           "category": "SUV",
           "price": 16990000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The GLC53 is a performance-oriented luxury SUV with stunning acceleration and superior comfort.",
           "specifications": {
             "engine": "3.0L Turbo I6",
@@ -1970,31 +1888,29 @@
           }
         },
         {
-        "brand": "Mercedes-Benz",
+      "brand": "Mercedes-Benz",
           "id": "MB-10",
-          "name": "SL43",
+          "name": "SL 63",
           "year": "2023",
           "category": "Coupe",
           "price": 16990000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The SL43 is a convertible roadster that combines exceptional performance with open-air freedom.",
+          "description": "The SL63 is a convertible roadster that combines exceptional performance with open-air freedom.",
           "specifications": {
-            "engine": "3.0L Turbo I6",
-            "horsepower": "375 hp",
-            "torque": "500 Nm",
+            "engine": "4.0L Twin-Turbo V8",
+            "horsepower": "577 hp",
+            "torque": "759 Nm",
             "transmission": "9-Speed Automatic",
             "0-100 km/h": "4.9 seconds",
             "drive": "RWD"
           }
-        },
-      {
-        "brand": "Audi",
+    },
+    {
+      "brand": "Audi",
           "id": "AD-1",
           "name": "R8",
           "year": "2023",
           "category": "Coupe",
           "price": 689000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Audi R8 is a high-performance supercar known for its striking design, potent V10 engine, and dynamic handling.",
           "specifications": {
             "engine": "V10 5.2L",
@@ -2006,13 +1922,12 @@
           }
         },
         {
-        "brand": "Audi",
+      "brand": "Audi",
           "id": "AD-2",
           "name": "RS3",
           "year": "2024",
           "category": "Sedan",
           "price": 3590000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Audi RS3 is a compact luxury sedan that combines cutting-edge technology with blistering performance.",
           "specifications": {
             "engine": "2.5L Turbocharged I5",
@@ -2024,13 +1939,12 @@
           }
         },
         {
-        "brand": "Audi",
+      "brand": "Audi",
           "id": "AD-3",
           "name": "RS4 Avant",
           "year": "2024",
           "category": "Wagon",
           "price": 5090000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Audi RS4 Avant is a powerful wagon offering a perfect balance of utility and high-performance dynamics.",
           "specifications": {
             "engine": "2.9L Turbocharged V6",
@@ -2042,13 +1956,12 @@
           }
         },
         {
-        "brand": "Audi",
+      "brand": "Audi",
           "id": "AD-4",
           "name": "RS5",
           "year": "2024",
           "category": "Coupe",
           "price": 5590000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Audi RS5 Coupe offers exceptional handling, aggressive styling, and a twin-turbo V6 engine.",
           "specifications": {
             "engine": "2.9L Turbocharged V6",
@@ -2060,13 +1973,12 @@
           }
         },
         {
-        "brand": "Audi",
+      "brand": "Audi",
           "id": "AD-5",
           "name": "RS6 Avant",
           "year": "2024",
           "category": "Wagon",
           "price": 7690000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The RS6 Avant blends thrilling performance with practicality, offering a versatile wagon with sports car-level performance.",
           "specifications": {
             "engine": "4.0L Turbocharged V8",
@@ -2078,13 +1990,12 @@
           }
         },
         {
-        "brand": "Audi",
+      "brand": "Audi",
           "id": "AD-6",
           "name": "RS7",
           "year": "2024",
           "category": "Sedan",
           "price": 8490000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Audi RS7 is a performance-focused luxury sedan with a muscular twin-turbo V8 engine and superior handling.",
           "specifications": {
             "engine": "4.0L Turbocharged V8",
@@ -2094,51 +2005,14 @@
             "0-100 km/h": "3.6 seconds",
             "drive": "AWD"
           }
-        },
-        {
-        "brand": "Audi",
+      },
+      {
+      "brand": "Audi",
           "id": "AD-7",
-          "name": "RS Q3",
-          "year": "2024",
-          "category": "SUV",
-          "price": 3590000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The RS Q3 combines compact SUV practicality with the performance of a sports car, perfect for the enthusiast.",
-          "specifications": {
-            "engine": "2.5L Turbocharged I5",
-            "horsepower": "400 hp",
-            "torque": "480 Nm",
-            "transmission": "7-Speed Dual-Clutch",
-            "0-100 km/h": "4.5 seconds",
-            "drive": "AWD"
-          }
-        },
-        {
-        "brand": "Audi",
-          "id": "AD-8",
-          "name": "RS Q5",
-          "year": "2024",
-          "category": "SUV",
-          "price": 4990000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The RS Q5 delivers strong performance in an agile SUV format, combining luxury with performance.",
-          "specifications": {
-            "engine": "2.9L Turbocharged V6",
-            "horsepower": "450 hp",
-            "torque": "600 Nm",
-            "transmission": "8-Speed Automatic",
-            "0-100 km/h": "4.5 seconds",
-            "drive": "AWD"
-          }
-        },
-        {
-        "brand": "Audi",
-          "id": "AD-9",
           "name": "RS Q8",
           "year": "2024",
           "category": "SUV",
           "price": 8390000,
-          "image": "/placeholder.svg?height=200&width=300",
           "description": "The Audi RS Q8 is a high-performance luxury SUV with sharp handling and a bold design.",
           "specifications": {
             "engine": "4.0L Turbocharged V8",
@@ -2148,222 +2022,210 @@
             "0-100 km/h": "3.8 seconds",
             "drive": "AWD"
           }
-        },
-        {
+      },
+      {
         "brand": "Audi",
-          "id": "AD-10",
-          "name": "RS e-tron GT",
-          "year": "2024",
-          "category": "Electric Sedan",
-          "price": 9990000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The Audi RS e-tron GT is an all-electric sedan that offers thrilling performance and cutting-edge technology.",
-          "specifications": {
-            "engine": "Dual Electric Motors",
-            "horsepower": "637 hp",
-            "torque": "830 Nm",
-            "transmission": "Single-Speed Automatic",
-            "0-100 km/h": "3.3 seconds",
-            "drive": "AWD"
-          }
-        },
-      {
-        "brand": "Tesla",
-          "id": "TS-1",
-          "name": "Model 3",
-          "year": "2023",
-          "category": "Sedan",
-          "price": 1399000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The Tesla Model 3 is a compact electric sedan offering impressive range, modern technology, and incredible acceleration.",
-          "specifications": {
-            "engine": "Electric Motor",
-            "horsepower": "283 hp",
-            "torque": "493 Nm",
-            "transmission": "Single-Speed Automatic",
-            "0-100 km/h": "5.8 seconds",
-            "drive": "RWD"
-          }
-        },
-        {
-        "brand": "Tesla",
-          "id": "TS-2",
-          "name": "Model Y",
-          "year": "2023",
-          "category": "SUV",
-          "price": 2999000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The Tesla Model Y is a compact electric SUV offering great utility, performance, and Tesla's advanced driver assistance features.",
-          "specifications": {
-            "engine": "Electric Motor",
-            "horsepower": "456 hp",
-            "torque": "660 Nm",
-            "transmission": "Single-Speed Automatic",
-            "0-100 km/h": "5.0 seconds",
-            "drive": "AWD"
-          }
-        },
-        {
-        "brand": "Tesla",
-          "id": "TS-3",
-          "name": "Cybertruck",
-          "year": "2023",
-          "category": "Truck",
-          "price": 6990000,
-          "image": "/placeholder.svg?height=200&width=300",
-          "description": "The Tesla Cybertruck is an all-electric pickup truck that combines rugged design with Tesla’s futuristic technology.",
-          "specifications": {
-            "engine": "Electric Motor",
-            "horsepower": "800 hp",
-            "torque": "1000 Nm",
-            "transmission": "Single-Speed Automatic",
-            "0-100 km/h": "6.5 seconds",
-            "drive": "AWD"
-          }
-        },
-      {
-        "brand": "Subaru",
-        "id": "SB-1",
-        "name": "WRX",
-        "year": "2023",
-        "category": ["Sedan"],
-        "price": 1399000,
-        "image": "/placeholder.svg?height=200&width=300",
-        "description": "The Subaru WRX offers a dynamic driving experience with its rally-inspired design and performance-oriented features.",
+        "id": "AD-8",
+        "name": "RS e-tron GT",
+        "year": "2024",
+        "category": "Electric Sedan",
+        "price": 9990000,
+        "description": "The Audi RS e-tron GT is an all-electric sedan that offers thrilling performance and cutting-edge technology.",
         "specifications": {
-          "engine": "2.4L Turbocharged Flat-4",
-          "horsepower": "271 hp",
-          "torque": "350 Nm",
-          "transmission": "6-Speed Manual",
-          "0-100 km/h": "5.1 seconds",
+          "engine": "Dual Electric Motors",
+          "horsepower": "637 hp",
+          "torque": "830 Nm",
+          "transmission": "Single-Speed Automatic",
+          "0-100 km/h": "3.3 seconds",
           "drive": "AWD"
         }
-      },
-      {
-        "brand": "Subaru",
-        "id": "SB-2",
-        "name": "WRX STI",
-        "year": "2023",
-        "category": ["Sedan"],
-        "price": 1799000,
-        "image": "/placeholder.svg?height=200&width=300",
-        "description": "The WRX STI is the high-performance variant of the WRX, delivering extreme handling and power, built for driving enthusiasts.",
-        "specifications": {
-          "engine": "2.5L Turbocharged Flat-4",
-          "horsepower": "310 hp",
-          "torque": "400 Nm",
-          "transmission": "6-Speed Manual",
-          "0-100 km/h": "4.6 seconds",
-          "drive": "AWD"
-        }
-      },
-      {
-        "brand": "Subaru",
-        "id": "SB-3",
-        "name": "BRZ",
-        "year": "2023",
-        "category": ["Coupe"],
-        "price": 1399000,
-        "image": "/placeholder.svg?height=200&width=300",
-        "description": "The Subaru BRZ is a lightweight, rear-wheel-drive sports coupe designed for enthusiasts who appreciate pure driving dynamics.",
-        "specifications": {
-          "engine": "2.4L Naturally Aspirated Flat-4",
-          "horsepower": "228 hp",
-          "torque": "249 Nm",
-          "transmission": "6-Speed Manual",
-          "0-100 km/h": "6.3 seconds",
-          "drive": "RWD"
-        }
-      },
-      {
-        "brand": "Subaru",
-        "id": "SB-4",
-        "name": "Subaru WRX",
-        "year": "2010",
-        "category": ["Sedan"],
-        "price": 1099000,
-        "image": "/placeholder.svg?height=200&width=300",
-        "description": "The 2010 Subaru WRX offers great all-weather performance with its turbocharged engine and all-wheel drive, perfect for those who love spirited driving.",
-        "specifications": {
-          "engine": "2.5L Turbocharged Flat-4",
-          "horsepower": "265 hp",
-          "torque": "343 Nm",
-          "transmission": "5-Speed Manual",
-          "0-100 km/h": "5.4 seconds",
-          "drive": "AWD"
-        }
-      },
-      {
-        "brand": "Subaru",
-        "id": "SB-5",
-        "name": "Subaru WRX STI",
-        "year": "2010",
-        "category": ["Sedan"],
-        "price": 1399000,
-        "image": "/placeholder.svg?height=200&width=300",
-        "description": "The 2010 WRX STI is the ultimate in performance, featuring a more powerful turbocharged engine and upgraded handling.",
-        "specifications": {
-          "engine": "2.5L Turbocharged Flat-4",
-          "horsepower": "305 hp",
-          "torque": "393 Nm",
-          "transmission": "6-Speed Manual",
-          "0-100 km/h": "4.9 seconds",
-          "drive": "AWD"
-        }
-      },
-      {
-        "brand": "Subaru",
-        "id": "SB-6",
-        "name": "Subaru Impreza WRX",
-        "year": "2007",
-        "category": ["Sedan"],
-        "price": 999000,
-        "image": "/placeholder.svg?height=200&width=300",
-        "description": "The 2007 Subaru Impreza WRX is known for its rally-inspired design and performance, offering a thrilling drive on both city streets and dirt tracks.",
-        "specifications": {
-          "engine": "2.5L Turbocharged Flat-4",
-          "horsepower": "230 hp",
-          "torque": "318 Nm",
-          "transmission": "5-Speed Manual",
-          "0-100 km/h": "5.5 seconds",
-          "drive": "AWD"
-        }
-      },
-      {
-        "brand": "Subaru",
-        "id": "SB-7",
-        "name": "Subaru Impreza WRX STI",
-        "year": "2007",
-        "category": ["Sedan"],
-        "price": 1199000,
-        "image": "/placeholder.svg?height=200&width=300",
-        "description": "The 2007 WRX STI is a high-performance model designed for serious enthusiasts, offering extreme handling and power.",
-        "specifications": {
-          "engine": "2.5L Turbocharged Flat-4",
-          "horsepower": "300 hp",
-          "torque": "407 Nm",
-          "transmission": "6-Speed Manual",
-          "0-100 km/h": "4.9 seconds",
-          "drive": "AWD"
-        }
-      },
-      {
-        "brand": "Subaru",
-        "id": "SB-8",
-        "name": "Subaru BRZ",
-        "year": "2013",
-        "category": ["Coupe"],
-        "price": 1299000,
-        "image": "/placeholder.svg?height=200&width=300",
-        "description": "The 2013 Subaru BRZ offers exceptional handling and a balanced, rear-wheel-drive layout, making it a pure enthusiast's car.",
-        "specifications": {
-          "engine": "2.0L Naturally Aspirated Flat-4",
-          "horsepower": "200 hp",
-          "torque": "205 Nm",
-          "transmission": "6-Speed Manual",
-          "0-100 km/h": "6.2 seconds",
-          "drive": "RWD"
-        }
+    },
+    {
+      "brand": "Tesla",
+      "id": "TS-1",
+      "name": "Model 3",
+      "year": "2023",
+      "category": "Sedan",
+      "price": 1399000,
+      "description": "The Tesla Model 3 is a compact electric sedan offering impressive range, modern technology, and incredible acceleration.",
+      "specifications": {
+        "engine": "Electric Motor",
+        "horsepower": "283 hp",
+        "torque": "493 Nm",
+        "transmission": "Single-Speed Automatic",
+        "0-100 km/h": "5.8 seconds",
+        "drive": "RWD"
       }
+    },
+    {
+      "brand": "Tesla",
+      "id": "TS-2",
+      "name": "Model Y",
+      "year": "2023",
+      "category": "SUV",
+      "price": 2999000,
+      "description": "The Tesla Model Y is a compact electric SUV offering great utility, performance, and Tesla's advanced driver assistance features.",
+      "specifications": {
+        "engine": "Electric Motor",
+        "horsepower": "456 hp",
+        "torque": "660 Nm",
+        "transmission": "Single-Speed Automatic",
+        "0-100 km/h": "5.0 seconds",
+        "drive": "AWD"
+      }
+    },
+    {
+      "brand": "Tesla",
+      "id": "TS-3",
+      "name": "Cybertruck",
+      "year": "2023",
+      "category": "Truck",
+      "price": 6990000,
+      "description": "The Tesla Cybertruck is an all-electric pickup truck that combines rugged design with Tesla’s futuristic technology.",
+      "specifications": {
+        "engine": "Electric Motor",
+        "horsepower": "800 hp",
+        "torque": "1000 Nm",
+        "transmission": "Single-Speed Automatic",
+        "0-100 km/h": "6.5 seconds",
+        "drive": "AWD"
+      }
+    },
+    {
+      "brand": "Subaru",
+      "id": "SB-1",
+      "name": "WRX 2023",
+      "year": "2023",
+      "category": ["Sedan"],
+      "price": 1399000,
+      "description": "The Subaru WRX offers a dynamic driving experience with its rally-inspired design and performance-oriented features.",
+      "specifications": {
+        "engine": "2.4L Turbocharged Flat-4",
+        "horsepower": "271 hp",
+        "torque": "350 Nm",
+        "transmission": "6-Speed Manual",
+        "0-100 km/h": "5.1 seconds",
+        "drive": "AWD"
+      }
+    },
+    {
+      "brand": "Subaru",
+      "id": "SB-2",
+      "name": "WRX STi 2023",
+      "year": "2023",
+      "category": ["Sedan"],
+      "price": 1799000,
+      "description": "The WRX STI is the high-performance variant of the WRX, delivering extreme handling and power, built for driving enthusiasts.",
+      "specifications": {
+        "engine": "2.5L Turbocharged Flat-4",
+        "horsepower": "310 hp",
+        "torque": "400 Nm",
+        "transmission": "6-Speed Manual",
+        "0-100 km/h": "4.6 seconds",
+        "drive": "AWD"
+      }
+    },
+    {
+      "brand": "Subaru",
+      "id": "SB-3",
+      "name": "BRZ 2023",
+      "year": "2023",
+      "category": ["Coupe"],
+      "price": 1399000,
+      "description": "The Subaru BRZ is a lightweight, rear-wheel-drive sports coupe designed for enthusiasts who appreciate pure driving dynamics.",
+      "specifications": {
+        "engine": "2.4L Naturally Aspirated Flat-4",
+        "horsepower": "228 hp",
+        "torque": "249 Nm",
+        "transmission": "6-Speed Manual",
+        "0-100 km/h": "6.3 seconds",
+        "drive": "RWD"
+      }
+    },
+    {
+      "brand": "Subaru",
+      "id": "SB-4",
+      "name": "WRX 2010",
+      "year": "2010",
+      "category": ["Sedan"],
+      "price": 1099000,
+      "description": "The 2010 Subaru WRX offers great all-weather performance with its turbocharged engine and all-wheel drive, perfect for those who love spirited driving.",
+      "specifications": {
+        "engine": "2.5L Turbocharged Flat-4",
+        "horsepower": "265 hp",
+        "torque": "343 Nm",
+        "transmission": "5-Speed Manual",
+        "0-100 km/h": "5.4 seconds",
+        "drive": "AWD"
+      }
+    },
+    {
+      "brand": "Subaru",
+      "id": "SB-5",
+      "name": "WRX STi 2010",
+      "year": "2010",
+      "category": ["Sedan"],
+      "price": 1399000,
+      "description": "The 2010 WRX STI is the ultimate in performance, featuring a more powerful turbocharged engine and upgraded handling.",
+      "specifications": {
+        "engine": "2.5L Turbocharged Flat-4",
+        "horsepower": "305 hp",
+        "torque": "393 Nm",
+        "transmission": "6-Speed Manual",
+        "0-100 km/h": "4.9 seconds",
+        "drive": "AWD"
+      }
+    },
+    {
+      "brand": "Subaru",
+      "id": "SB-6",
+      "name": "Impreza WRX",
+      "year": "2007",
+      "category": ["Sedan"],
+      "price": 999000,
+      "description": "The 2007 Subaru Impreza WRX is known for its rally-inspired design and performance, offering a thrilling drive on both city streets and dirt tracks.",
+      "specifications": {
+        "engine": "2.5L Turbocharged Flat-4",
+        "horsepower": "230 hp",
+        "torque": "318 Nm",
+        "transmission": "5-Speed Manual",
+        "0-100 km/h": "5.5 seconds",
+        "drive": "AWD"
+      }
+    },
+    {
+      "brand": "Subaru",
+      "id": "SB-7",
+      "name": "Impreza WRX STi",
+      "year": "2007",
+      "category": ["Sedan"],
+      "price": 1199000,
+      "description": "The 2007 WRX STI is a high-performance model designed for serious enthusiasts, offering extreme handling and power.",
+      "specifications": {
+        "engine": "2.5L Turbocharged Flat-4",
+        "horsepower": "300 hp",
+        "torque": "407 Nm",
+        "transmission": "6-Speed Manual",
+        "0-100 km/h": "4.9 seconds",
+        "drive": "AWD"
+      }
+    },
+    {
+      "brand": "Subaru",
+      "id": "SB-8",
+      "name": "BRZ 2013",
+      "year": "2013",
+      "category": ["Coupe"],
+      "price": 1299000,
+      "description": "The 2013 Subaru BRZ offers exceptional handling and a balanced, rear-wheel-drive layout, making it a pure enthusiast's car.",
+      "specifications": {
+        "engine": "2.0L Naturally Aspirated Flat-4",
+        "horsepower": "200 hp",
+        "torque": "205 Nm",
+        "transmission": "6-Speed Manual",
+        "0-100 km/h": "6.2 seconds",
+        "drive": "RWD"
+      }
+    }
   ]
 }

@@ -1,8 +1,54 @@
+'use client'
+
 import Link from 'next/link'
+import { useEffect, useState } from 'react'
+import { useRouter } from 'next/navigation'
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/theme-toggle"
 
 const Navbar = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState(false)
+  const router = useRouter()
+
+  useEffect(() => {
+    const checkSession = async () => {
+      try {
+        const response = await fetch('/api/auth/getlogin', {
+          method: 'GET',
+          credentials: 'include' // Important for sending cookies
+        })
+
+        const data = await response.json()
+        setIsLoggedIn(data.isLoggedIn)
+      } catch (error) {
+        console.error('Error checking session:', error)
+        setIsLoggedIn(false)
+      }
+    }
+
+    checkSession()
+  }, [])
+
+  const handleLogout = async () => {
+    try {
+      const response = await fetch('/api/auth/logout', {
+        method: 'POST',
+        credentials: 'include' // Important for sending cookies
+      })
+
+      if (response.ok) {
+        // Clear login state
+        setIsLoggedIn(false)
+        // Redirect to login page or home
+        router.push('/login')
+      } else {
+        console.error('Logout failed')
+      }
+    } catch (error) {
+      console.error('Logout error:', error)
+    }
+  }
+
   return (
     <nav className="bg-white dark:bg-black shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -31,12 +77,27 @@ const Navbar = () => {
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:items-center space-x-4">
             <ThemeToggle />
-            <Button variant="outline" asChild>
-              <Link href="/login">Login</Link>
-            </Button>
-            <Button className="bg-red-600 text-white hover:bg-red-700 dark:bg-yellow-400 dark:text-black dark:hover:bg-yellow-500" asChild>
-              <Link href="/register">Register</Link>
-            </Button>
+            {isLoggedIn ? (
+              <Button 
+                variant="destructive" 
+                onClick={handleLogout}
+                className="bg-red-600 text-white hover:bg-red-700 dark:bg-yellow-400 dark:text-black dark:hover:bg-yellow-500"
+              >
+                Logout
+              </Button>
+            ) : (
+              <>
+                <Button variant="outline" asChild>
+                  <Link href="/login">Login</Link>
+                </Button>
+                <Button 
+                  className="bg-red-600 text-white hover:bg-red-700 dark:bg-yellow-400 dark:text-black dark:hover:bg-yellow-500" 
+                  asChild
+                >
+                  <Link href="/register">Register</Link>
+                </Button>
+              </>
+            )}
           </div>
         </div>
       </div>
@@ -45,4 +106,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
