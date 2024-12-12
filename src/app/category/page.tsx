@@ -1,13 +1,14 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { Card, CardContent } from "@/components/ui/card"
 
 const categories = [
-  { name: 'Sedan', image: '/placeholder.svg?height=200&width=300' },
-  { name: 'SUV', image: '/placeholder.svg?height=200&width=300' },
-  { name: 'Truck', image: '/placeholder.svg?height=200&width=300' },
-  { name: 'Sports Car', image: '/placeholder.svg?height=200&width=300' },
-  { name: 'Electric', image: '/placeholder.svg?height=200&width=300' },
-  { name: 'Luxury', image: '/placeholder.svg?height=200&width=300' },
+  { name: 'Sedan', image: '/images/BMW/M3 Competition/placeholder.jpg' },
+  { name: 'Coupe', image: '/images/Subaru/BRZ 2023/placeholder.jpg' },
+  { name: 'SUV', image: '/images/Mercedes-Benz/G63/placeholder.jpg' },
+  { name: 'Luxury Sedan', image: '/images/BMW/M760e xDrive/placeholder.jpg' },
+  { name: 'Truck', image: '/images/Tesla/Cybertruck/placeholder.jpg' },
+  { name: 'Electric', image: '/images/Tesla/Model 3/placeholder.jpg' },
 ]
 
 export default function CategoryPage() {
@@ -19,7 +20,7 @@ export default function CategoryPage() {
           <Link href={`/category/${category.name.toLowerCase()}`} key={category.name}>
             <Card>
               <CardContent className="p-4">
-                <img src={category.image} alt={category.name} className="w-full h-48 object-cover rounded-md mb-2" />
+                <Image src={category.image} alt={category.name} width={300} height={200}  className="w-full h-48 object-cover rounded-md mb-2" />
                 <h2 className="text-xl font-semibold">{category.name}</h2>
               </CardContent>
             </Card>

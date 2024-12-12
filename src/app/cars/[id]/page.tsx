@@ -5,16 +5,7 @@ import Link from 'next/link'
 
 import carData from '@/data/cars.json'
 import { useParams } from 'next/navigation';
-// This is mock data. In a real application, you would fetch this based on the ID from the URL.
-const carDetails = {
-  id: '1',
-  name: 'Tesla Model 3',
-  brand: 'Tesla',
-  price: 41990,
-  image: '/placeholder.svg?height=400&width=600',
-  description: 'The Tesla Model 3 is an electric four-door fastback sedan developed by Tesla. The Model 3 Standard Range Plus version delivers an EPA-rated all-electric range of 263 miles (423 km) and the Long Range versions deliver 353 miles (568 km).',
-  features: ['Electric', 'Autopilot', 'Dual Motor', '0-60 mph in 3.1s']
-}
+import { useState, useEffect } from "react";
 
 export default function CarDetail() {
   // In a real application, you would fetch the car details based on params.id
@@ -34,18 +25,60 @@ export default function CarDetail() {
     );
   }
 
+  const generateImagePaths = (brand: string, name: string, imgCount: number) => {
+    const basePath = `/images/${brand}/${name}/`;
+    const imagePaths = [`${basePath}placeholder.jpg`];
+
+    for (let i = 1; i < imgCount; i++) {
+      imagePaths.push(`${basePath}${i}.jpg`);
+    }
+
+    return imagePaths;
+  };
+
+  const imgCount = carDetails.imgCount || 1; // Replace with real data or a fallback
+  const imagePaths = generateImagePaths(carDetails.brand, carDetails.name, imgCount);
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [hideButtons, setHideButtons] = useState(imgCount > 1);
+
+  const nextImage = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % imagePaths.length);
+  };
+
+  const prevImage = () => {
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + imagePaths.length) % imagePaths.length);
+  };
+
+  useEffect(() => {
+    setHideButtons(imgCount > 1); // Update button visibility if imgCount changes
+  }, [imgCount]);
+
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold mb-4">{carDetails.name}</h1>
       <div className="grid md:grid-cols-2 gap-8">
-        <div>
+        <div className="relative flex items-center justify-center">
+          <button
+            onClick={prevImage}
+            className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full z-10 carouselButtons"
+          >
+            &lt;
+          </button>
           <Image
-            src={"/images/"+carDetails.brand+"/"+carDetails.name+"/placeholder.jpg"}
+            src={imagePaths[currentIndex]}
             alt={carDetails.name}
             width={600}
             height={400}
             className="rounded-lg"
           />
+          <button
+            onClick={nextImage}
+            className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full z-10 carouselButtons"
+          >
+            &gt;
+          </button>
         </div>
         <div>
           <p className="text-xl font-semibold mb-2">{carDetails.brand}</p>

@@ -6,7 +6,7 @@
       "name": "GR Corolla",
       "year": "2023",
       "category": "Hatchback",
-      "price": 939000,
+      "price": 1790000,
       "description": "The 2023 GR Corolla is Toyota's high-performance hatchback, built for driving enthusiasts. Featuring a turbocharged 1.6L 3-cylinder engine, it delivers 300 horsepower and 273 lb-ft of torque, making it a force on both the street and track.",
       "specifications": {
         "engine": "1.6L Turbocharged 3-Cylinder",
@@ -15,7 +15,8 @@
         "transmission": "6-Speed Manual",
         "0-100 km/h": "5.5 seconds",
         "drive": "AWD"
-      }
+      },
+      "imgCount": 4
     },
     {
       "brand": "Toyota",
@@ -23,7 +24,7 @@
       "name": "GR Yaris",
       "year": "2021",
       "category": "Hatchback",
-      "price": 939000,
+      "price": 2590000,
       "description": "The GR Yaris, a rally-bred hatchback, combines lightweight design with impressive performance. Powered by a 1.6L 3-cylinder turbo engine, it achieves 257 horsepower and features a sophisticated all-wheel-drive system for superior handling.",
       "specifications": {
         "engine": "1.6L Turbocharged 3-Cylinder",
@@ -32,7 +33,8 @@
         "transmission": "6-Speed Manual",
         "0-100 km/h": "5.5 seconds",
         "drive": "AWD"
-      }
+      },
+      "imgCount": 4
     },  
     {
       "brand": "Toyota",
@@ -40,7 +42,7 @@
       "name": "GR Supra",
       "year": "2023",
       "category": "Coupe",
-      "price": 939000,
+      "price": 5290000,
       "description": "The 2023 GR Supra is Toyota's return to the iconic sports coupe market. With a powerful 3.0L turbocharged inline-6 engine, it delivers 382 horsepower, making it a thrilling drive on both the street and track. The car's sleek design and performance capabilities have been honed for precision handling and exhilarating acceleration.",
       "specifications": {
           "engine": "3.0L Turbocharged Inline-6",
@@ -49,7 +51,8 @@
           "transmission": "8-Speed Automatic",
           "0-100 km/h": "4.1 seconds",
           "drive": "RWD"
-      }
+      },
+      "imgCount": 4
     },
     {
       "brand": "Toyota",
@@ -57,7 +60,7 @@
       "name": "Supra A80",
       "year": "1996",
       "category": "Coupe",
-      "price": 939000,
+      "price": 3990000,
       "description": "The 1996 Supra A80, often regarded as one of the best Japanese sports cars of its time, is a legend in the automotive world. Featuring a turbocharged 3.0L inline-six engine, this car is known for its tunability and legendary status in street racing culture.",
       "specifications": {
           "engine": "3.0L Turbocharged Inline-6",
@@ -66,7 +69,8 @@
           "transmission": "6-Speed Manual",
           "0-100 km/h": "5.5 seconds",
           "drive": "RWD"
-      }
+      },
+      "imgCount": 2
     },
     {
       "brand": "Toyota",
@@ -74,7 +78,7 @@
       "name": "Celica GT",
       "year": "1996",
       "category": "Coupe",
-      "price": 939000,
+      "price": 1290000,
       "description": "The 1996 Toyota Celica GT is a compact, sporty coupe that offers a balance between performance and everyday usability. Powered by a 2.2L 4-cylinder engine, it provides a great entry point for those seeking an affordable sports car with impressive handling.",
       "specifications": {
           "engine": "2.2L Inline-4",
@@ -83,7 +87,8 @@
           "transmission": "5-Speed Manual",
           "0-100 km/h": "9.0 seconds",
           "drive": "FWD"
-      }
+      },
+      "imgCount": 2
     },
     {
     "brand": "Toyota",
@@ -91,7 +96,7 @@
       "name": "AE 86",
       "year": "1983",
       "category": "Coupe",
-      "price": 939000,
+      "price": 1490000,
       "description": "The AE 86, known for its lightweight design and agile handling, became a cult classic thanks to its appearance in motorsports and drift culture. Its 1.6L 4-cylinder engine and rear-wheel drive setup offer the perfect foundation for enthusiasts seeking to modify or race their car.",
       "specifications": {
           "engine": "1.6L Inline-4",
@@ -100,7 +105,8 @@
           "transmission": "5-Speed Manual",
           "0-100 km/h": "8.5 seconds",
           "drive": "RWD"
-      }
+      },
+      "imgCount": 2
     },
     {
       "brand": "Toyota",
@@ -108,7 +114,7 @@
       "name": "FT 86",
       "year": "2014",
       "category": "Coupe",
-      "price": 939000,
+      "price": 1890000,
       "description": "The 2014 Toyota FT 86, also known as the Scion FR-S in the U.S., is a lightweight, rear-wheel-drive coupe aimed at providing an engaging driving experience. With a 2.0L 4-cylinder engine, it strikes a balance between performance and affordability for driving purists.",
       "specifications": {
           "engine": "2.0L Inline-4",
@@ -117,7 +123,8 @@
           "transmission": "6-Speed Manual",
           "0-100 km/h": "7.5 seconds",
           "drive": "RWD"
-      }
+      },
+      "imgCount": 3
     },
     {
       "brand": "Toyota",
@@ -125,7 +132,7 @@
       "name": "GR 86",
       "year": "2024",
       "category": "Coupe",
-      "price": 939000,
+      "price": 2890000,
       "description": "The 2024 Toyota GR 86 brings a refreshed and modern look to the beloved sports coupe. With its 2.4L Boxer engine, it delivers 228 horsepower and a low center of gravity that makes it an incredibly agile and fun-to-drive car for enthusiasts.",
       "specifications": {
           "engine": "2.4L Boxer 4-Cylinder",
@@ -134,7 +141,8 @@
           "transmission": "6-Speed Manual",
           "0-100 km/h": "6.3 seconds",
           "drive": "RWD"
-      }
+      },
+      "imgCount": 4
     },
     {
     "brand": "Toyota",
@@ -142,7 +150,7 @@
     "name": "Land Cruiser GR Sport",
     "year": "2023",
     "category": "SUV",
-    "price": 939000,
+    "price": 6290000,
     "description": "The 2023 Toyota Land Cruiser GR Sport is an off-road powerhouse, combining luxury and rugged capability. With a 3.5L turbocharged V6 engine and advanced off-road features, it’s built to tackle any terrain while providing premium comfort and technology.",
     "specifications": {
         "engine": "3.5L Turbocharged V6",
@@ -151,7 +159,8 @@
         "transmission": "10-Speed Automatic",
         "0-100 km/h": "7.5 seconds",
         "drive": "AWD"
-      }
+      },
+      "imgCount": 2
     },
     {
       "brand": "Honda",
@@ -159,7 +168,7 @@
       "name": "Civic Type-R FL5",
       "year": "2024",
       "category": "Hatchback",
-      "price": 964900,
+      "price": 4290000,
       "description": "The 2024 Honda Civic Type-R FL5 offers a refined driving experience with a turbocharged 2.0L engine that delivers 320 horsepower. The car is renowned for its precise handling and aggressive design, making it an ideal choice for enthusiasts who crave both performance and practicality.",
       "specifications": {
         "engine": "2.0L Turbocharged Inline-4",
@@ -168,7 +177,8 @@
         "transmission": "6-Speed Manual",
         "0-100 km/h": "5.7 seconds",
         "drive": "FWD"
-      }
+      },
+      "imgCount": 3
     },
     {
       "brand": "Honda",
@@ -176,7 +186,7 @@
       "name": "Civic Type-R FK8",
       "year": "2020",
       "category": "Hatchback",
-      "price": 939000,
+      "price": 3490000,
       "description": "The 2020 Civic Type-R FK8 continues the legacy of the Type-R lineup, featuring a 2.0L turbocharged engine that offers incredible performance. With its sharp handling and aggressive styling, this version of the Type-R is built for those who want a car that's both thrilling on track and practical on the road.",
       "specifications": {
         "engine": "2.0L Turbocharged Inline-4",
@@ -185,7 +195,8 @@
         "transmission": "6-Speed Manual",
         "0-100 km/h": "5.8 seconds",
         "drive": "FWD"
-      }
+      },
+      "imgCount": 2
     },
     {
       "brand": "Honda",
@@ -193,7 +204,7 @@
       "name": "Civic Type-R EK9",
       "year": "2000",
       "category": "Hatchback",
-      "price": 939000,
+      "price": 1890000,
       "description": "The 2000 Honda Civic Type-R EK9 is a lightweight and high-performance version of the Civic. Known for its agility and precision, it comes with a 1.6L engine that revs high and delivers excellent power for its size. A true icon in the hot hatchback world.",
       "specifications": {
         "engine": "1.6L Inline-4",
@@ -202,7 +213,8 @@
         "transmission": "5-Speed Manual",
         "0-100 km/h": "6.6 seconds",
         "drive": "FWD"
-      }
+      },
+      "imgCount": 2
     },
     {
       "brand": "Honda",
@@ -210,7 +222,7 @@
       "name": "Civic Type-R FD2",
       "year": "2007",
       "category": "Sedan",
-      "price": 939000,
+      "price": 1290000,
       "description": "The 2007 Civic Type-R FD2 is a sedan variant of the iconic Civic Type-R. With a 2.0L engine that pushes out 221 hp, it blends performance and practicality in a way that few cars in its class can match.",
       "specifications": {
         "engine": "2.0L Inline-4",
@@ -219,7 +231,8 @@
         "transmission": "6-Speed Manual",
         "0-100 km/h": "6.4 seconds",
         "drive": "FWD"
-      }
+      },
+      "imgCount": 2
     },
     {
       "brand": "Honda",
@@ -227,7 +240,7 @@
       "name": "Integra Type-R",
       "year": "2001",
       "category": "Coupe",
-      "price": 939000,
+      "price": 2290000,
       "description": "The 2001 Integra Type-R is a performance-oriented coupe that delivers an exhilarating driving experience. With a high-revving 1.8L engine producing 195 hp, it was built for enthusiasts who prioritize handling and precision.",
       "specifications": {
         "engine": "1.8L Inline-4",
@@ -236,7 +249,8 @@
         "transmission": "5-Speed Manual",
         "0-100 km/h": "6.8 seconds",
         "drive": "FWD"
-      }
+      },
+      "imgCount": 2
     },
     {
       "brand": "Honda",
@@ -244,7 +258,7 @@
       "name": "NSX-R NA1",
       "year": "1992",
       "category": "Coupe",
-      "price": 939000,
+      "price": 10900000,
       "description": "The 1992 NSX-R NA1 is a legendary Japanese supercar that blends sports car performance with luxury. Powered by a 3.0L V6 engine, it provides exceptional performance with 280 hp and exceptional handling.",
       "specifications": {
         "engine": "3.0L V6",
@@ -253,7 +267,8 @@
         "transmission": "5-Speed Manual",
         "0-100 km/h": "5.6 seconds",
         "drive": "RWD"
-      }
+      },
+      "imgCount": 2
     },
     {
       "brand": "Honda",
@@ -261,7 +276,7 @@
       "name": "NSX-R NA2",
       "year": "2004",
       "category": "Coupe",
-      "price": 939000,
+      "price": 15900000,
       "description": "The 2004 NSX-R NA2 is the second iteration of the iconic NSX series, featuring updated technology and a 3.2L V6 engine. With 290 hp and a lightweight design, it delivers pure performance and handling.",
       "specifications": {
         "engine": "3.2L V6",
@@ -270,7 +285,8 @@
         "transmission": "6-Speed Manual",
         "0-100 km/h": "5.5 seconds",
         "drive": "RWD"
-      }
+      },
+      "imgCount": 2
     },
     {
       "brand": "Honda",
@@ -278,7 +294,7 @@
       "name": "S2000 Type-s",
       "year": "2008",
       "category": "Convertible",
-      "price": 939000,
+      "price": 3590000,
       "description": "The 2008 Honda S2000 Type-S is a roadster known for its high-revving 2.2L engine and exceptional handling. It offers a true sports car experience with a well-balanced chassis and a 6-speed manual transmission.",
       "specifications": {
         "engine": "2.2L Inline-4",
@@ -287,7 +303,8 @@
         "transmission": "6-Speed Manual",
         "0-100 km/h": "6.0 seconds",
         "drive": "RWD"
-      }
+      },
+      "imgCount": 3
     },
     {
       "brand": "Honda",
@@ -295,7 +312,7 @@
       "name": "S660",
       "year": "2015",
       "category": "Coupe",
-      "price": 939000,
+      "price": 2490000,
       "description": "The 2015 Honda S660 is a small, lightweight sports car that provides a fun, agile driving experience. With a 0.66L turbocharged engine, it's perfect for those seeking a compact and responsive car.",
       "specifications": {
         "engine": "0.66L Turbocharged Inline-3",
@@ -304,7 +321,8 @@
         "transmission": "6-Speed Manual",
         "0-100 km/h": "10.5 seconds",
         "drive": "RWD"
-      }
+      },
+      "imgCount": 2
     },
     {
       "brand": "Mazda",
@@ -312,7 +330,7 @@
       "name": "RX-7 FD3S",
       "year": "2001",
       "category": "Coupe",
-      "price": 1069000,
+      "price": 2190000,
       "description": "The 2001 RX-7 FD3S is one of Mazda's most iconic sports cars, powered by a twin-rotor 1.3L rotary engine. It is known for its lightweight construction and near-perfect handling, making it a joy to drive.",
       "specifications": {
         "engine": "1.3L Twin-Rotor Rotary",
@@ -321,7 +339,8 @@
         "transmission": "5-Speed Manual",
         "0-100 km/h": "5.9 seconds",
         "drive": "RWD"
-      }
+      },
+      "imgCount": 2
     },
     {
       "brand": "Mazda",
@@ -329,7 +348,7 @@
       "name": "RX-7 FC3S",
       "year": "1985",
       "category": "Coupe",
-      "price": 1069000,
+      "price": 1590000,
       "description": "The 1985 RX-7 FC3S marks the second generation of Mazda's RX series. Equipped with a 1.3L rotary engine, the FC3S was built for performance enthusiasts with its sharp handling and strong acceleration.",
       "specifications": {
         "engine": "1.3L Twin-Rotor Rotary",
@@ -338,7 +357,8 @@
         "transmission": "5-Speed Manual",
         "0-100 km/h": "7.2 seconds",
         "drive": "RWD"
-      }
+      },
+      "imgCount": 1
     },
     {
       "brand": "Mazda",
@@ -346,7 +366,7 @@
       "name": "Miata MX-5",
       "year": "1989",
       "category": "Convertible",
-      "price": 1069000,
+      "price": 2790000,
       "description": "The 1989 Mazda MX-5 Miata is the original small roadster that redefined affordable sports cars. It combines an ultra-light body with responsive handling, making it an exceptional choice for driving enthusiasts who value agility and fun over outright power.",
       "specifications": {
         "engine": "1.6L Inline-4",
@@ -355,7 +375,8 @@
         "transmission": "5-Speed Manual",
         "0-100 km/h": "8.5 seconds",
         "drive": "RWD"
-      }
+      },
+      "imgCount": 3
     },
     {
       "brand": "Mazda",
@@ -363,7 +384,7 @@
       "name": "MX-5",
       "year": "2017",
       "category": "Convertible",
-      "price": 1069000,
+      "price": 1990000,
       "description": "The 2017 Mazda MX-5 Miata is a modern take on the iconic roadster. With its lightweight design, precise handling, and 2.0L engine, it brings a fresh and exhilarating driving experience while maintaining the Miata's core values of simplicity and driving purity.",
       "specifications": {
         "engine": "2.0L Inline-4",
@@ -372,7 +393,8 @@
         "transmission": "6-Speed Manual",
         "0-100 km/h": "6.5 seconds",
         "drive": "RWD"
-      }
+      },
+      "imgCount": 5
     },
     {
       "brand": "Nissan",
@@ -389,7 +411,8 @@
         "transmission": "6-Speed Dual-Clutch",
         "0-100 km/h": "2.7 seconds",
         "drive": "AWD"
-      }
+      },
+      "imgCount": 2
     },
     {
       "brand": "Nissan",
@@ -406,7 +429,8 @@
         "transmission": "6-Speed Dual-Clutch",
         "0-100 km/h": "2.5 seconds",
         "drive": "AWD"
-      }
+      },
+      "imgCount": 3
     },
     {
       "brand": "Nissan",
@@ -423,7 +447,8 @@
         "transmission": "5-Speed Manual",
         "0-100 km/h": "5.6 seconds",
         "drive": "AWD"
-      }
+      },
+      "imgCount": 1
     },
     {
       "brand": "Nissan",
@@ -440,7 +465,8 @@
         "transmission": "5-Speed Manual",
         "0-100 km/h": "5.2 seconds",
         "drive": "AWD"
-      }
+      },
+      "imgCount": 3
     },
     {
       "brand": "Nissan",
@@ -457,7 +483,8 @@
         "transmission": "5-Speed Manual",
         "0-100 km/h": "5.4 seconds",
         "drive": "AWD"
-      }
+      },
+      "imgCount": 2
     },
     {
       "brand": "Nissan",
@@ -474,7 +501,8 @@
         "transmission": "5-Speed Manual",
         "0-100 km/h": "6.0 seconds",
         "drive": "AWD"
-      }
+      },
+      "imgCount": 2
     },
     {
       "brand": "Nissan",
@@ -491,7 +519,8 @@
         "transmission": "6-Speed Manual",
         "0-100 km/h": "4.0 seconds",
         "drive": "RWD"
-      }
+      },
+      "imgCount": 4
     },
     {
       "brand": "Nissan",
@@ -508,7 +537,8 @@
         "transmission": "6-Speed Manual",
         "0-100 km/h": "5.0 seconds",
         "drive": "RWD"
-      }
+      },
+      "imgCount": 2
     },
     {
       "brand": "Nissan",
@@ -525,7 +555,8 @@
         "transmission": "5-Speed Manual",
         "0-100 km/h": "6.5 seconds",
         "drive": "RWD"
-      }
+      },
+      "imgCount": 2
     },
     {
       "brand": "Acura",
@@ -542,7 +573,8 @@
         "transmission": "9-Speed Dual-Clutch",
         "0-100 km/h": "2.7 seconds",
         "drive": "AWD"
-      }
+      },
+      "imgCount": 5
     },
     {
       "brand": "Acura",
@@ -559,7 +591,8 @@
         "transmission": "6-Speed Manual",
         "0-100 km/h": "5.6 seconds",
         "drive": "FWD"
-      }
+      },
+      "imgCount": 4
     },
     {
       "brand": "Lamborghini",
@@ -576,7 +609,8 @@
             "transmission": "7-Speed Dual-Clutch",
             "0-100 km/h": "2.9 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Lamborghini",
@@ -593,7 +627,8 @@
             "transmission": "7-Speed Dual-Clutch",
             "0-100 km/h": "3.3 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Lamborghini",
@@ -610,7 +645,8 @@
             "transmission": "7-Speed Dual-Clutch",
             "0-100 km/h": "3.0 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Lamborghini",
@@ -627,7 +663,8 @@
             "transmission": "7-Speed Dual-Clutch",
             "0-100 km/h": "2.9 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Lamborghini",
@@ -644,7 +681,8 @@
             "transmission": "7-Speed Dual-Clutch",
             "0-100 km/h": "2.9 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Lamborghini",
@@ -661,7 +699,8 @@
             "transmission": "7-Speed Dual-Clutch",
             "0-100 km/h": "2.8 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Lamborghini",
@@ -678,7 +717,8 @@
             "transmission": "7-Speed Dual-Clutch",
             "0-100 km/h": "2.8 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Lamborghini",
@@ -695,7 +735,8 @@
             "transmission": "8-Speed Dual-Clutch",
             "0-100 km/h": "2.5 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Lamborghini",
@@ -712,7 +753,8 @@
             "transmission": "8-Speed Dual-Clutch",
             "0-100 km/h": "2.7 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Lamborghini",
@@ -729,7 +771,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.6 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Lamborghini",
@@ -746,7 +789,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.3 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 4
         },
         {
       "brand": "Lamborghini",
@@ -763,7 +807,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.1 seconds (estimated)",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Lamborghini",
@@ -780,7 +825,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.5 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
     },
     {
       "brand": "Ford",
@@ -797,7 +843,8 @@
             "transmission": "6-Speed Manual or 10-Speed Automatic",
             "0-100 km/h": "4.2 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 4
         },
         {
       "brand": "Ford",
@@ -814,7 +861,8 @@
             "transmission": "6-Speed Manual",
             "0-100 km/h": "4.0 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 3
         },
         {
       "brand": "Ford",
@@ -831,7 +879,8 @@
             "transmission": "7-Speed Dual-Clutch Automatic",
             "0-100 km/h": "3.5 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Ford",
@@ -848,7 +897,8 @@
             "transmission": "6-Speed Manual or 10-Speed Automatic",
             "0-100 km/h": "4.1 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 3
         },
         {
       "brand": "Ford",
@@ -865,7 +915,8 @@
             "transmission": "6-Speed Manual or 10-Speed Automatic",
             "0-100 km/h": "4.0 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 3
     },
     {
       "brand": "Ferrari",
@@ -882,7 +933,8 @@
             "transmission": "8-Speed Dual-Clutch",
             "0-100 km/h": "2.9 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Ferrari",
@@ -899,7 +951,8 @@
             "transmission": "8-Speed Dual-Clutch",
             "0-100 km/h": "2.5 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Ferrari",
@@ -916,7 +969,8 @@
             "transmission": "8-Speed Dual-Clutch",
             "0-100 km/h": "3.3 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Ferrari",
@@ -933,7 +987,8 @@
             "transmission": "7-Speed Dual-Clutch",
             "0-100 km/h": "2.9 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Ferrari",
@@ -950,7 +1005,8 @@
             "transmission": "8-Speed Dual-Clutch",
             "0-100 km/h": "3.4 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 4
     },
     {
       "brand": "Porsche",
@@ -967,7 +1023,8 @@
             "transmission": "8-Speed PDK",
             "0-100 km/h": "3.2 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Porsche",
@@ -984,7 +1041,8 @@
             "transmission": "8-Speed PDK",
             "0-100 km/h": "2.7 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Porsche",
@@ -1001,7 +1059,8 @@
             "transmission": "8-Speed PDK",
             "0-100 km/h": "3.1 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Porsche",
@@ -1018,7 +1077,8 @@
             "transmission": "7-Speed PDK",
             "0-100 km/h": "3.4 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Porsche",
@@ -1035,7 +1095,8 @@
             "transmission": "7-Speed PDK",
             "0-100 km/h": "3.2 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 4
         },
         {
       "brand": "Porsche",
@@ -1052,7 +1113,8 @@
             "transmission": "7-Speed PDK",
             "0-100 km/h": "3.0 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 4
         },
         {
       "brand": "Porsche",
@@ -1069,7 +1131,8 @@
             "transmission": "7-Speed PDK",
             "0-100 km/h": "3.0 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 4
         },
         {
       "brand": "Porsche",
@@ -1086,7 +1149,8 @@
             "transmission": "6-Speed Manual",
             "0-100 km/h": "4.1 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 4
         },
         {
       "brand": "Porsche",
@@ -1103,7 +1167,8 @@
             "transmission": "6-Speed Manual",
             "0-100 km/h": "3.9 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 3
         },
         {
       "brand": "Porsche",
@@ -1120,7 +1185,8 @@
             "transmission": "7-Speed PDK",
             "0-100 km/h": "3.4 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Porsche",
@@ -1137,7 +1203,8 @@
             "transmission": "7-Speed PDK",
             "0-100 km/h": "3.5 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 4
         },
         {
       "brand": "Porsche",
@@ -1154,7 +1221,8 @@
             "transmission": "8-Speed Tiptronic",
             "0-100 km/h": "4.5 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 4
         },
         {
       "brand": "Porsche",
@@ -1171,7 +1239,8 @@
             "transmission": "8-Speed PDK",
             "0-100 km/h": "3.2 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Porsche",
@@ -1188,7 +1257,8 @@
             "transmission": "7-Speed PDK",
             "0-100 km/h": "4.3 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Porsche",
@@ -1205,7 +1275,8 @@
             "transmission": "1-Speed Direct Drive",
             "0-100 km/h": "3.3 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Porsche",
@@ -1222,7 +1293,8 @@
             "transmission": "Single-Speed",
             "0-100 km/h": "3.2 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Porsche",
@@ -1239,7 +1311,8 @@
             "transmission": "Single-Speed",
             "0-100 km/h": "2.9 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Porsche",
@@ -1256,7 +1329,8 @@
             "transmission": "Single-Speed",
             "0-100 km/h": "3.2 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Porsche",
@@ -1273,7 +1347,8 @@
             "transmission": "Single-Speed",
             "0-100 km/h": "2.5 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 4
         },
         {
       "brand": "Porsche",
@@ -1290,7 +1365,8 @@
             "transmission": "8-Speed Tiptronic S",
             "0-100 km/h": "3.3 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
     },
     {
       "brand": "BMW",
@@ -1307,7 +1383,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "4.1 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 3
         },
         {
       "brand": "BMW",
@@ -1324,7 +1401,8 @@
             "transmission": "6-Speed Manual",
             "0-100 km/h": "4.1 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 4
         },
         {
       "brand": "BMW",
@@ -1335,13 +1413,14 @@
           "price": 689000,
           "description": "The 2025 M2 enhances the thrilling performance with a refined powertrain and improved handling capabilities.",
           "specifications": {
-            "engine": "3.0L Turbocharged Inline-6",
+            "engine": "3.0L Tuixrbocharged Inline-6",
             "horsepower": "453 hp",
             "torque": "550 Nm",
             "transmission": "6-Speed Manual",
             "0-100 km/h": "4.0 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 3
         },
         {
       "brand": "BMW",
@@ -1358,7 +1437,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.8 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 4
         },
         {
       "brand": "BMW",
@@ -1375,7 +1455,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.9 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 4
         },
         {
       "brand": "BMW",
@@ -1392,7 +1473,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.7 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 3
         },
         {
       "brand": "BMW",
@@ -1409,7 +1491,8 @@
             "transmission": "6-Speed Manual",
             "0-100 km/h": "3.8 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 3
         },
         {
       "brand": "BMW",
@@ -1426,7 +1509,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.8 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 4
         },
         {
       "brand": "BMW",
@@ -1443,7 +1527,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.5 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 4
         },
         {
       "brand": "BMW",
@@ -1460,7 +1545,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.1 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 2
         },
         {
       "brand": "BMW",
@@ -1477,7 +1563,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.0 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 3
         },
         {
       "brand": "BMW",
@@ -1494,7 +1581,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.1 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 2
         },
         {
       "brand": "BMW",
@@ -1511,7 +1599,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.2 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 3
         },
         {
       "brand": "BMW",
@@ -1528,7 +1617,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.8 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 3
         },
         {
       "brand": "BMW",
@@ -1545,7 +1635,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.9 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 2
         },
         {
       "brand": "BMW",
@@ -1562,7 +1653,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.8 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 2
         },
         {
       "brand": "BMW",
@@ -1579,7 +1671,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "4.0 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 2
         },
         {
       "brand": "BMW",
@@ -1596,7 +1689,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.1 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 2
         },
         {
       "brand": "BMW",
@@ -1613,16 +1707,17 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.2 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 2
         },
         {
       "brand": "BMW",
           "id": "B-20",
           "name": "i4 M50",
           "year": "2024",
-          "category": ["Electric Sedan"],
+          "category": ["Electric"],
           "price": 5900000,
-          "description": "The i4 M50 is an electric sedan that combines sustainable performance with the M division's heritage.",
+          "description": "The i4 M50 is an Electric that combines sustainable performance with the M division's heritage.",
           "specifications": {
             "engine": "Electric Powertrain",
             "horsepower": "536 hp",
@@ -1630,14 +1725,15 @@
             "transmission": "Single-Speed Automatic",
             "0-100 km/h": "3.9 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 2
         },
         {
       "brand": "BMW",
           "id": "B-21",
           "name": "i7 M70 xDrive",
           "year": "2024",
-          "category": ["Electric Sedan"],
+          "category": ["Electric","Luxury Sedan"],
           "price": 9500000,
           "description": "The i7 M70 xDrive is an all-electric luxury sedan that redefines driving with its high-end technology and performance.",
           "specifications": {
@@ -1647,7 +1743,8 @@
             "transmission": "Single-Speed Automatic",
             "0-100 km/h": "4.0 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 3
         },
         {
       "brand": "BMW",
@@ -1664,7 +1761,8 @@
             "transmission": "Single-Speed Automatic",
             "0-100 km/h": "3.8 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 3
         },
         {
       "brand": "BMW",
@@ -1681,7 +1779,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "4.1 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 3
         },
         {
       "brand": "BMW",
@@ -1698,7 +1797,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "4.1 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 4
         },
         {
       "brand": "BMW",
@@ -1715,14 +1815,15 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "4.0 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 2
         },
         {
       "brand": "BMW",
           "id": "B-26",
           "name": "i5 M60 xDrive",
           "year": "2024",
-          "category": ["Electric Sedan"],
+          "category": ["Electric"],
           "price": 6800000,
           "description": "The i5 M60 xDrive offers high-end electric performance, combining BMW's luxury with the power of a full electric powertrain.",
           "specifications": {
@@ -1732,7 +1833,8 @@
             "transmission": "Single-Speed Automatic",
             "0-100 km/h": "3.8 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 2
     },
     {
       "brand": "Mercedes-Benz",
@@ -1749,7 +1851,8 @@
             "transmission": "9-Speed Automatic",
             "0-100 km/h": "4.7 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Mercedes-Benz",
@@ -1766,7 +1869,8 @@
             "transmission": "9-Speed Automatic",
             "0-100 km/h": "4.4 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 4
         },
         {
       "brand": "Mercedes-Benz",
@@ -1783,7 +1887,8 @@
             "transmission": "9-Speed Automatic",
             "0-100 km/h": "4.5 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Mercedes-Benz",
@@ -1800,7 +1905,8 @@
             "transmission": "9-Speed Automatic",
             "0-100 km/h": "3.9 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 4
         },
         {
       "brand": "Mercedes-Benz",
@@ -1817,7 +1923,8 @@
             "transmission": "8-Speed Dual-Clutch",
             "0-100 km/h": "3.9 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Mercedes-Benz",
@@ -1834,7 +1941,8 @@
             "transmission": "8-Speed Dual-Clutch",
             "0-100 km/h": "4.0 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Mercedes-Benz",
@@ -1851,7 +1959,8 @@
             "transmission": "9-Speed Automatic",
             "0-100 km/h": "4.5 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 4
         },
         {
       "brand": "Mercedes-Benz",
@@ -1868,7 +1977,8 @@
             "transmission": "9-Speed Automatic",
             "0-100 km/h": "4.7 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 4
         },
         {
       "brand": "Mercedes-Benz",
@@ -1885,7 +1995,8 @@
             "transmission": "9-Speed Automatic",
             "0-100 km/h": "4.5 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Mercedes-Benz",
@@ -1902,7 +2013,8 @@
             "transmission": "9-Speed Automatic",
             "0-100 km/h": "4.9 seconds",
             "drive": "RWD"
-          }
+          },
+      "imgCount": 5
     },
     {
       "brand": "Audi",
@@ -1919,7 +2031,8 @@
             "transmission": "7-Speed Dual-Clutch",
             "0-100 km/h": "3.4 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Audi",
@@ -1936,7 +2049,8 @@
             "transmission": "7-Speed Dual-Clutch",
             "0-100 km/h": "3.8 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Audi",
@@ -1953,7 +2067,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "4.1 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Audi",
@@ -1970,7 +2085,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.9 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Audi",
@@ -1987,7 +2103,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.5 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
         },
         {
       "brand": "Audi",
@@ -2004,7 +2121,8 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.6 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 4
       },
       {
       "brand": "Audi",
@@ -2021,16 +2139,17 @@
             "transmission": "8-Speed Automatic",
             "0-100 km/h": "3.8 seconds",
             "drive": "AWD"
-          }
+          },
+      "imgCount": 5
       },
       {
         "brand": "Audi",
         "id": "AD-8",
         "name": "RS e-tron GT",
         "year": "2024",
-        "category": "Electric Sedan",
+        "category": "Electric",
         "price": 9990000,
-        "description": "The Audi RS e-tron GT is an all-electric sedan that offers thrilling performance and cutting-edge technology.",
+        "description": "The Audi RS e-tron GT is an all-Electric that offers thrilling performance and cutting-edge technology.",
         "specifications": {
           "engine": "Dual Electric Motors",
           "horsepower": "637 hp",
@@ -2038,16 +2157,17 @@
           "transmission": "Single-Speed Automatic",
           "0-100 km/h": "3.3 seconds",
           "drive": "AWD"
-        }
+        },
+      "imgCount": 5
     },
     {
       "brand": "Tesla",
       "id": "TS-1",
       "name": "Model 3",
       "year": "2023",
-      "category": "Sedan",
+      "category": "Electric",
       "price": 1399000,
-      "description": "The Tesla Model 3 is a compact electric sedan offering impressive range, modern technology, and incredible acceleration.",
+      "description": "The Tesla Model 3 is a compact Electric offering impressive range, modern technology, and incredible acceleration.",
       "specifications": {
         "engine": "Electric Motor",
         "horsepower": "283 hp",
@@ -2055,14 +2175,15 @@
         "transmission": "Single-Speed Automatic",
         "0-100 km/h": "5.8 seconds",
         "drive": "RWD"
-      }
+      },
+      "imgCount": 4
     },
     {
       "brand": "Tesla",
       "id": "TS-2",
       "name": "Model Y",
       "year": "2023",
-      "category": "SUV",
+      "category": "Electric",
       "price": 2999000,
       "description": "The Tesla Model Y is a compact electric SUV offering great utility, performance, and Tesla's advanced driver assistance features.",
       "specifications": {
@@ -2072,14 +2193,15 @@
         "transmission": "Single-Speed Automatic",
         "0-100 km/h": "5.0 seconds",
         "drive": "AWD"
-      }
+      },
+      "imgCount": 4
     },
     {
       "brand": "Tesla",
       "id": "TS-3",
       "name": "Cybertruck",
       "year": "2023",
-      "category": "Truck",
+      "category": ["Electric","Truck"],
       "price": 6990000,
       "description": "The Tesla Cybertruck is an all-electric pickup truck that combines rugged design with Tesla’s futuristic technology.",
       "specifications": {
@@ -2089,7 +2211,8 @@
         "transmission": "Single-Speed Automatic",
         "0-100 km/h": "6.5 seconds",
         "drive": "AWD"
-      }
+      },
+      "imgCount": 4
     },
     {
       "brand": "Subaru",
@@ -2106,7 +2229,8 @@
         "transmission": "6-Speed Manual",
         "0-100 km/h": "5.1 seconds",
         "drive": "AWD"
-      }
+      },
+      "imgCount": 4
     },
     {
       "brand": "Subaru",
@@ -2123,7 +2247,8 @@
         "transmission": "6-Speed Manual",
         "0-100 km/h": "4.6 seconds",
         "drive": "AWD"
-      }
+      },
+      "imgCount": 1
     },
     {
       "brand": "Subaru",
@@ -2140,7 +2265,8 @@
         "transmission": "6-Speed Manual",
         "0-100 km/h": "6.3 seconds",
         "drive": "RWD"
-      }
+      },
+      "imgCount": 5
     },
     {
       "brand": "Subaru",
@@ -2157,7 +2283,8 @@
         "transmission": "5-Speed Manual",
         "0-100 km/h": "5.4 seconds",
         "drive": "AWD"
-      }
+      },
+      "imgCount": 3
     },
     {
       "brand": "Subaru",
@@ -2174,7 +2301,8 @@
         "transmission": "6-Speed Manual",
         "0-100 km/h": "4.9 seconds",
         "drive": "AWD"
-      }
+      },
+      "imgCount": 4
     },
     {
       "brand": "Subaru",
@@ -2191,7 +2319,8 @@
         "transmission": "5-Speed Manual",
         "0-100 km/h": "5.5 seconds",
         "drive": "AWD"
-      }
+      },
+      "imgCount": 2
     },
     {
       "brand": "Subaru",
@@ -2208,7 +2337,8 @@
         "transmission": "6-Speed Manual",
         "0-100 km/h": "4.9 seconds",
         "drive": "AWD"
-      }
+      },
+      "imgCount": 3
     },
     {
       "brand": "Subaru",
@@ -2225,7 +2355,8 @@
         "transmission": "6-Speed Manual",
         "0-100 km/h": "6.2 seconds",
         "drive": "RWD"
-      }
+      },
+      "imgCount": 5
     }
   ]
 }

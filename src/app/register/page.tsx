@@ -4,7 +4,6 @@ import { useState } from 'react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import { useRouter } from 'next/navigation'
 
 export default function RegisterPage() {
   const [formData, setFormData] = useState({
@@ -23,7 +22,6 @@ export default function RegisterPage() {
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
 
-  const router = useRouter()
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
@@ -45,7 +43,7 @@ export default function RegisterPage() {
         const data = await response.json();
         setSuccess(`Registration successful! Welcome, ${data.user.name}`);
         setFormData({ name: '', email: '', password: '' });
-        router.push('/');
+        window.location.replace('/');
       } else {
         const errorData = await response.json();
         setError(errorData.error || 'Something went wrong');

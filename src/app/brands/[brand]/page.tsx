@@ -3,7 +3,7 @@ import CarCard from '@/components/CarCard'
 import carData from '@/data/cars.json'
 import { useParams } from 'next/navigation';
 
-export default function BrandPage() {
+export default function BrandPageParams() {
   // In a real application, you would fetch cars based on params.brand
   const params = useParams<{brand: string}>();
   const brand = decodeURIComponent(params.brand);
