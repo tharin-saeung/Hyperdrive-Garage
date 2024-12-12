@@ -4,12 +4,10 @@ import { useState } from 'react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import Link from 'next/link'
 
-export default function LoginPage() {
+export default function ForgotPage() {
   const [formData, setFormData] = useState({
     email: '',
-    password: ''
   })
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -28,10 +26,10 @@ export default function LoginPage() {
     setError('');
     setSuccess('');
     // Here you would typically send the login data to your server
-    console.log('Login submitted:', formData)
+    console.log('Password resetted:', formData)
     // Reset form or redirect user
     try {
-      const response = await fetch('/api/auth/login', {
+      const response = await fetch('/api/auth/forgotpassword', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -40,10 +38,10 @@ export default function LoginPage() {
       });
 
       if (response.ok) {
-        const data = await response.json();
-        setSuccess(`Login successful! Welcome, ${data.user.name}`);
-        setFormData({ email: '', password: '' });
-        window.location.replace('/');
+        await response.json();
+        setSuccess(`Password reset successful!`);
+        setFormData({ email: '' });
+        window.location.replace('/login');
       } else {
         const errorData = await response.json();
         setError(errorData.error || 'Something went wrong');
@@ -57,7 +55,7 @@ export default function LoginPage() {
 
   return (
     <div className="max-w-md mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold mb-8">Login</h1>
+      <h1 className="text-3xl font-bold mb-8">Forgot Password?</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <Label htmlFor="email">Email</Label>
@@ -70,27 +68,12 @@ export default function LoginPage() {
             onChange={handleChange}
           />
         </div>
-        <div>
-          <Label htmlFor="password">Password</Label>
-          <Input
-            id="password"
-            name="password"
-            type="password"
-            required
-            value={formData.password}
-            onChange={handleChange}
-          />
-        </div>
         <Button type="submit" className="w-full" disabled={loading}>
-          {loading ? 'Logging in...' : 'Login'}
+          {loading ? 'Resetting password...' : 'Reset Password'}
         </Button>
       </form>
-      <p className="mt-4 text-blue-500 font-semibold">
-        <Link href='/forgotpassword'>Forgot Password?</Link>
-      </p>
       {success && <p className="mt-4 text-green-600">{success}</p>}
       {error && <p className="mt-4 text-red-600">{error}</p>}
     </div>
   )
 }
-

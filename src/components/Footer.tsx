@@ -45,11 +45,6 @@ const Footer = () => {
                       About Us
                     </Link>
                   </li>
-                  <li>
-                    <Link href="/news" className="text-base text-gray-400 dark:text-gray-300 hover:text-white">
-                      News
-                    </Link>
-                  </li>
                 </ul>
               </div>
             </div>

@@ -55,6 +55,44 @@ export default function CarDetail() {
   }, [imgCount]);
 
 
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+  const [success, setSuccess] = useState('');
+
+  const handleSubmit = async (e: React.MouseEvent) => {
+    e.preventDefault();
+    setLoading(true);
+    setError('');
+    setSuccess('');
+    const formData = {
+      name: carDetails.name,
+      price: carDetails.price
+    }
+    console.log('Payment submitted:', formData)
+    try {
+      const response = await fetch('/api/payment', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.status === 303) {
+        setSuccess(`Payment successful!`);
+        const { url } = await response.json();
+        window.location.href = url; // Redirect to Stripe checkout
+      } else {
+        const errorData = await response.json();
+        setError(errorData.error || 'Something went wrong');
+      }
+    } catch (err) {
+      setError('Failed to connect to the server. Please try again later.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold mb-4">{carDetails.name}</h1>
@@ -82,7 +120,7 @@ export default function CarDetail() {
         </div>
         <div>
           <p className="text-xl font-semibold mb-2">{carDetails.brand}</p>
-          <p className="text-2xl font-bold mb-4">${carDetails.price.toLocaleString()}</p>
+          <p className="text-2xl font-bold mb-4">฿{carDetails.price.toLocaleString()}</p>
           <p className="mb-4">{carDetails.description}</p>
           <h2 className="text-xl font-semibold mb-2">Specifications:</h2>
           <ul className="list-disc list-inside mb-4">
@@ -92,12 +130,13 @@ export default function CarDetail() {
               </li>
             ))}
           </ul>
-          <Button asChild>
-            <Link href="/payment">Buy Now</Link>
+          <Button onClick={handleSubmit}>
+            {loading ? 'Purchasing...' : 'Buy Now'}
           </Button>
+          {success && <p className="mt-4 text-green-600">{success}</p>}
+          {error && <p className="mt-4 text-red-600">{error}</p>}
         </div>
       </div>
     </div>
   );
 }
-
