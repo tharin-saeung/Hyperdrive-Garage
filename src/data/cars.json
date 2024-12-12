@@ -291,7 +291,7 @@
     {
       "brand": "Honda",
       "id": "H-8",
-      "name": "S2000 Type-s",
+      "name": "S2000 Type-S",
       "year": "2008",
       "category": "Convertible",
       "price": 3590000,
@@ -417,11 +417,11 @@
     {
       "brand": "Nissan",
       "id": "N-2",
-      "name": "GT-R R35 NISMO EDITION",
+      "name": "GT-R R35 Nismo Edition",
       "year": "2023",
       "category": "Coupe",
       "price": 559000,
-      "description": "The 2023 Nissan GT-R R-35 NISMO Edition elevates the legendary GT-R to a new level of performance, with enhanced aerodynamics, a refined suspension system, and additional power from its tuned twin-turbo V6 engine, making it the ultimate expression of Nissan's engineering excellence.",
+      "description": "The 2023 Nissan GT-R R-35 Nismo Edition elevates the legendary GT-R to a new level of performance, with enhanced aerodynamics, a refined suspension system, and additional power from its tuned twin-turbo V6 engine, making it the ultimate expression of Nissan's engineering excellence.",
       "specifications": {
         "engine": "3.8L Twin-Turbo V6",
         "horsepower": "600 hp",
